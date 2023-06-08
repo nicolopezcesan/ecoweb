@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   web:
-    container_name: ecosan-web
+    container_name: ecoweb-web
     build:
       context: ./
       dockerfile: Dockerfile
@@ -16,7 +16,7 @@ services:
     networks:
       - app-network
   mysql:
-    container_name: ecosan-mysql
+    container_name: ecoweb-mysql
     image: mysql:latest
     restart: always
     environment:
@@ -27,7 +27,7 @@ services:
     networks:
       - app-network
   phpmyadmin:
-    container_name: ecosan-myadmin
+    container_name: ecoweb-myadmin
     image: phpmyadmin/phpmyadmin
     ports:
       - '8080:80'
