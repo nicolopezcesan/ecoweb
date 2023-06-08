@@ -1,0 +1,128 @@
+@import "../../utils/fonts";
+@import "../../utils/variables";
+
+.form {
+  background-color: $white;
+
+  .how-container {
+    padding-top: 40px;
+  }
+
+  .banner-title {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 54px;
+
+    .line-below {
+      width: 160px;
+      border: 1.5px solid $brand-primary;
+      margin: 12px 0 0;
+      opacity: 1;
+    }
+  }
+
+  .banner-title-form {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $light-grey;
+
+    .line-below {
+      width: 160px;
+      border: 2px solid $brand-primary;
+      margin: 12px 0 0;
+      opacity: 1;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    color: $black;
+  }
+
+  img.img-fluid {
+    width: 100%;
+  }
+
+  // form styles
+
+  .grey-bg {
+    background-color: $light-grey;
+    padding-bottom: 56px;
+  }
+
+  .form-container {
+    margin-top: -46px;
+  }
+
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+
+  .box {
+    height: 50px;
+    border: 2px solid $brand-primary;
+  }
+
+  .text-box {
+    height: 250px;
+    border: 2px solid $brand-primary;
+  }
+
+  input::placeholder {
+    padding: 8px;
+  }
+
+  .btn-form {
+    color: $brand-primary;
+    background-color: $black;
+    border-color: $black;
+    width: 80%;
+    height: 60px;
+    margin-top: 75px;
+  }
+
+  .legal {
+    font-family: "Titillium Web";
+    font-size: 16px;
+    color: $grey;
+    line-height: 17px;
+    padding: 30px 0;
+  }
+
+  .title {
+    font-size: 18px;
+    font-family: "Avenir";
+    font-weight: 600;
+  }
+
+  .contact-form {
+    margin-bottom: 80px;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    .banner-title {
+      margin-bottom: 32px;
+    }
+    .top-container {
+      padding: 0;
+    }
+
+    .btn-form {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    .contact-form {
+      margin-bottom: 32px;
+    }
+  }
+}

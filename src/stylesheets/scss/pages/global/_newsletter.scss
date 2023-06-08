@@ -1,0 +1,55 @@
+@import "../../utils/fonts";
+@import "../../utils/variables";
+
+.newsletter {
+  background-color: #d9d9d9;
+  height: 160px;
+
+  > .container {
+    height: inherit;
+  }
+
+  .newsletter-container {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 75%;
+    margin: 0 auto;
+
+    .bi {
+      font-size: 40px;
+      color: $brand-primary;
+    }
+
+    input {
+      max-width: 360px;
+      border-radius: 0;
+      border: 2px solid black;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    .btn {
+      border-radius: 0;
+      color: $brand-primary;
+    }
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    height: auto;
+    padding: 16px 0 32px;
+    text-align: center;
+
+    .newsletter-container {
+      height: inherit;
+      gap: 18px;
+      align-items: center;
+      justify-content: space-evenly;
+      max-width: 90%;
+      flex-direction: column;
+    }
+  }
+}

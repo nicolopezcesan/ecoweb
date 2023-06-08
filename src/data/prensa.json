@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Nuevos módulos y más camas en el Hospital El Carmen",
+    "link": "https://www.mendoza.gov.ar/prensa/nuevos-modulos-y-mas-camas-en-el-hospital-el-carmen/",
+    "image": "/assets/images/prensa/news-1.png"
+  },
+  {
+    "name": "Quiénes y dónde deben testearse los porteños que se van de vacaciones",
+    "link": "https://www.ambito.com/informacion-general/ciudad/quienes-y-donde-deben-testearse-los-portenos-que-se-van-vacaciones-n5158595",
+    "image": "/assets/images/prensa/news-2.png"
+  },
+  {
+    "name": "El Gobierno planea terminar 12 hospitales contra la pandemia antes de fin de mes",
+    "link": "https://www.lapoliticaonline.com/nota/126044-el-gobierno-planea-terminar-12-hospitales-contra-la-pandemia-antes-de-fin-de-mes/",
+    "image": "/assets/images/prensa/news-3.png"
+  },
+  {
+    "name": "El Hospital Modular ya está casi terminado: construyen veredas e instalan cableado de energía",
+    "link": "https://www.lacapitalmdp.com/el-hospital-modular-ya-esta-casi-terminado-construyen-veredas-e-instalan-cableado-de-energia/",
+    "image": "/assets/images/prensa/news-4.jpg"
+  },
+  {
+    "name": "Los curas villeros combaten el COVID 19 en villas de emergencia y barrios populares",
+    "link": "https://tercersector.org.ar/los-curas-villeros-combaten-el-covid-19-en-villas-de-emergencia-y-barrios-populares/",
+    "image": "/assets/images/prensa/news-5.jpg"
+  },
+  {
+    "name": "Última etapa de construcción en el Hospital Modular",
+    "link": "https://www.mdpya.com.ar/ultima-etapa-de-construccion-en-el-hospital-modular/",
+    "image": "/assets/images/prensa/news-6.jpg"
+  },
+  {
+    "name": "ECOSAN donó módulos a los Curas Villeros frente al COVID 19news-7",
+    "link": "https://norteenlinea.com/buenos-aires/ecosan-dono-modulos-a-los-curas-villeros-frente-al-covid-19",
+    "image": "/assets/images/prensa/news-7.jpg"
+  },
+  {
+    "name": "La calma que antecede al huracán: así se prepara un hospital de campaña para el coronavirus",
+    "link": "https://www.clarin.com/sociedad/calma-antecede-huracan-prepara-hospital-campana-coronavirus_0_VUmi-1IIn.html",
+    "image": "/assets/images/prensa/news-8.jpg"
+  },
+  {
+    "name": "LOS CURAS VILLEROS COMBATEN EL COVID 19 EN VILLAS DE EMERGENCIA Y BARRIOS POPULARESnews-",
+    "link": "http://marcelafittipaldi.com.ar/2020/04/los-curas-villeros-combaten-el-covid-19-en-villas-de-emergencia-y-barrios-populares/",
+    "image": "/assets/images/prensa/news-9.jpg"
+  }
+]

@@ -1,0 +1,79 @@
+@import "../../utils/fonts";
+@import "../../utils/variables";
+
+.prensa {
+  .banner-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px 0;
+
+    h2 {
+      text-align: center;
+      color: $black;
+    }
+
+    .line-below {
+      width: 120px;
+      border: 2px solid $brand-primary;
+      margin: 12px 0 0;
+      opacity: 1;
+    }
+  }
+
+  .prensa-bg {
+    background-color: #dbdfe9;
+
+    .cont-bg {
+      padding: 50px 0;
+      background-image: url("/assets/images/bg-prensa.png");
+      position: relative;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position-x: right;
+    }
+
+    .prensa-title {
+      font-size: 24px;
+      color: $black;
+      font-family: "Avenir";
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .asesor-title {
+      color: $black;
+    }
+
+    .btn-primary {
+      font-size: 16px;
+      margin-top: 10px;
+      color: $black;
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    .banner-title {
+      height: auto;
+      margin: 32px 0;
+      h2 {
+        margin: 0;
+      }
+    }
+
+    .prensa-bg {
+      padding: 16px 24px 0;
+
+      .cont-bg {
+        background-position-y: bottom;
+        padding-top: 32px;
+        padding-bottom: 234px;
+      }
+    }
+  }
+}

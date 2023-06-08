@@ -1,0 +1,62 @@
+@import "../../utils/fonts";
+@import "../../utils/variables";
+
+.certification {
+  background-image: url("/assets/images/bg-certificacion.svg");
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 100px 0;
+  position: relative;
+  background-color: $brand-primary;
+  h2,
+  h3 {
+    color: $white;
+  }
+
+  .logos-iso {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .certification-title {
+    font-family: "Avenir";
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  .van-container {
+    background-image: url("/assets/images/van.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    height: 300px;
+  }
+
+  .btn-primary {
+    font-size: 20px;
+    margin-top: 24px;
+  }
+
+  .legales {
+    // background-color: $brand-primary;
+    padding-top: 60px;
+
+    p {
+      display: list-item;
+      list-style-type: disc;
+      margin-left: 16px;
+      margin-top: 16px;
+    }
+  }
+  .subtitle-legales {
+    margin-top: 24px;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    padding: 60px 0;
+
+    .top-container {
+      padding: 0;
+    }
+  }
+}

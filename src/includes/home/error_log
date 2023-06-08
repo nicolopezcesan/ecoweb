@@ -1,0 +1,50 @@
+[30-May-2023 14:52:26 UTC] PHP Warning:  file_get_contents(data/construccion.json): Failed to open stream: No such file or directory in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 2
+[30-May-2023 14:52:26 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 8
+[30-May-2023 14:53:10 UTC] PHP Warning:  file_get_contents(data/construccion.json): Failed to open stream: No such file or directory in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 2
+[30-May-2023 14:53:10 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 8
+[30-May-2023 14:53:11 UTC] PHP Warning:  file_get_contents(data/construccion.json): Failed to open stream: No such file or directory in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 2
+[30-May-2023 14:53:11 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 8
+[30-May-2023 14:53:12 UTC] PHP Warning:  file_get_contents(data/construccion.json): Failed to open stream: No such file or directory in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 2
+[30-May-2023 14:53:12 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 8
+[30-May-2023 14:53:12 UTC] PHP Warning:  file_get_contents(data/construccion.json): Failed to open stream: No such file or directory in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 2
+[30-May-2023 14:53:12 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 8
+[30-May-2023 14:53:12 UTC] PHP Warning:  file_get_contents(data/construccion.json): Failed to open stream: No such file or directory in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 2
+[30-May-2023 14:53:12 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 8
+[30-May-2023 14:53:13 UTC] PHP Warning:  file_get_contents(data/construccion.json): Failed to open stream: No such file or directory in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 2
+[30-May-2023 14:53:13 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 8
+[30-May-2023 14:53:13 UTC] PHP Warning:  file_get_contents(data/construccion.json): Failed to open stream: No such file or directory in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 2
+[30-May-2023 14:53:13 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 8
+[30-May-2023 14:53:13 UTC] PHP Warning:  file_get_contents(data/construccion.json): Failed to open stream: No such file or directory in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 2
+[30-May-2023 14:53:13 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 8
+[30-May-2023 14:53:13 UTC] PHP Warning:  file_get_contents(data/construccion.json): Failed to open stream: No such file or directory in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 2
+[30-May-2023 14:53:13 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/esteba58/public_html/includes/home/construccion-detail-SLIDE.php on line 8

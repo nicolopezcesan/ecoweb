@@ -1,0 +1,9 @@
+@import "../../utils/fonts";
+@import "../../utils/variables";
+@import "../../utils/mixins";
+@import "../../utils/fonts";
+@media only screen and (max-device-width: 480px) {
+  .rentals-img {
+    display: none;
+  }
+}

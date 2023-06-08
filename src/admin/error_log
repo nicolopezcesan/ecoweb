@@ -1,0 +1,124 @@
+[03-Apr-2023 22:20:10 UTC] PHP Warning:  Undefined array key "name" in /home/esteba58/public_html/admin/edit_article_post.php on line 7
+[03-Apr-2023 22:20:10 UTC] PHP Warning:  Undefined array key "content" in /home/esteba58/public_html/admin/edit_article_post.php on line 10
+[03-Apr-2023 22:21:30 UTC] PHP Warning:  Undefined array key "name" in /home/esteba58/public_html/admin/edit_article_post.php on line 7
+[03-Apr-2023 22:21:30 UTC] PHP Warning:  Undefined array key "content" in /home/esteba58/public_html/admin/edit_article_post.php on line 10
+[03-Apr-2023 22:27:07 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:20
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(20): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 20
+[03-Apr-2023 22:35:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /home/esteba58/public_html/admin/uploader.php:86
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(54): resizeImage()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 86
+[03-Apr-2023 22:36:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /home/esteba58/public_html/admin/uploader.php:86
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(54): resizeImage()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 86
+[03-Apr-2023 22:41:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /home/esteba58/public_html/admin/uploader.php:86
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(54): resizeImage()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 86
+[03-Apr-2023 22:46:15 UTC] PHP Warning:  Undefined array key "name" in /home/esteba58/public_html/admin/edit_article_post.php on line 7
+[03-Apr-2023 22:46:15 UTC] PHP Warning:  Undefined array key "content" in /home/esteba58/public_html/admin/edit_article_post.php on line 10
+[03-Apr-2023 22:47:28 UTC] PHP Warning:  Undefined array key "name" in /home/esteba58/public_html/admin/edit_article_post.php on line 7
+[03-Apr-2023 22:47:28 UTC] PHP Warning:  Undefined array key "content" in /home/esteba58/public_html/admin/edit_article_post.php on line 10
+[04-Apr-2023 02:15:35 UTC] PHP Warning:  Undefined array key "name" in /home/esteba58/public_html/admin/edit_article_post.php on line 7
+[04-Apr-2023 02:15:35 UTC] PHP Warning:  Undefined array key "content" in /home/esteba58/public_html/admin/edit_article_post.php on line 10
+[04-Apr-2023 02:21:56 UTC] PHP Warning:  Undefined array key "name" in /home/esteba58/public_html/admin/edit_article_post.php on line 7
+[04-Apr-2023 02:21:56 UTC] PHP Warning:  Undefined array key "content" in /home/esteba58/public_html/admin/edit_article_post.php on line 10
+[04-Apr-2023 02:22:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /home/esteba58/public_html/admin/uploader.php:86
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(54): resizeImage()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 86
+[04-Apr-2023 02:26:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /home/esteba58/public_html/admin/uploader.php:86
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(54): resizeImage()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 86
+[04-Apr-2023 02:27:21 UTC] PHP Warning:  Undefined array key "name" in /home/esteba58/public_html/admin/edit_article_post.php on line 7
+[04-Apr-2023 02:27:21 UTC] PHP Warning:  Undefined array key "content" in /home/esteba58/public_html/admin/edit_article_post.php on line 10
+[04-Apr-2023 02:28:09 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:20
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(20): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 20
+[04-Apr-2023 02:35:57 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:20
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(20): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 20
+[04-Apr-2023 02:54:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /home/esteba58/public_html/admin/uploader.php:86
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(54): resizeImage()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 86
+[07-Apr-2023 01:51:56 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:20
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(20): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 20
+[07-Apr-2023 01:55:58 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:20
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(20): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 20
+[07-Apr-2023 01:56:09 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:20
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(20): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 20
+[07-Apr-2023 01:59:35 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:20
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(20): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 20
+[07-Apr-2023 02:05:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /home/esteba58/public_html/admin/uploader.php:87
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(55): resizeImage()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 87
+[10-Apr-2023 17:20:18 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:26
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(26): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 26
+[10-Apr-2023 17:28:37 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:26
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(26): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 26
+[11-Apr-2023 13:12:16 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:20
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(20): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 20
+[11-Apr-2023 13:13:07 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:20
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(20): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 20
+[11-Apr-2023 13:15:40 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:21
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(21): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 21
+[30-May-2023 02:08:38 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:23
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(23): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 23
+[30-May-2023 03:31:28 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:23
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(23): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 23
+[30-May-2023 03:34:32 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/esteba58/public_html/admin/uploader.php:23
+Stack trace:
+#0 /home/esteba58/public_html/admin/uploader.php(23): getimagesize()
+#1 {main}
+  thrown in /home/esteba58/public_html/admin/uploader.php on line 23

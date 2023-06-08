@@ -1,0 +1,62 @@
+@import "../utils/fonts";
+@import "../utils/variables";
+
+.branches {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+
+  h3 {
+    font-size: 18px;
+    padding: 24px 0 0;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #666;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  h5,
+  h6 {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  h6 {
+    color: $brand-primary;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+  .icon {
+    width: 18px;
+  }
+
+  .address {
+    margin-bottom: 16px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  a {
+    color: $brand-primary;
+  }
+
+  .branch-item {
+    padding: 10px;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    .branch-item {
+      padding: 12px 24px;
+      text-align: left;
+      margin-bottom: 16px;
+      border-bottom: 1px solid grey;
+      padding-bottom: 16px;
+    }
+  }
+}

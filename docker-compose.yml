@@ -1,0 +1,44 @@
+version: '3.8'
+services:
+  web:
+    container_name: ecosan-web
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - 7000:80
+    depends_on:
+      - mysql
+    stdin_open: true
+    tty: true
+    networks:
+      - app-network
+  mysql:
+    container_name: ecosan-mysql
+    image: mysql:latest
+    restart: always
+    environment:
+        MYSQL_DATABASE: ecosan
+        MYSQL_ROOT_PASSWORD: root
+    ports:
+        - "3306:3306"
+    networks:
+      - app-network
+  phpmyadmin:
+    container_name: ecosan-myadmin
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - '8080:80'
+    restart: always
+    environment:
+      PMA_HOST: mysql
+    depends_on:
+        - mysql
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

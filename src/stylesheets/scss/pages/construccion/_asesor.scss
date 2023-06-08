@@ -1,0 +1,47 @@
+@import "../../utils/fonts";
+@import "../../utils/variables";
+
+.asesor {
+  background-color: $brand-primary;
+
+  > .container {
+    background-image: url("/assets/images/background-asesor.svg");
+    padding: 60px 0 100px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .asesor-title {
+    font-size: 35px;
+    color: $black;
+    font-family: "Avenir";
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .asesor-subtitle {
+    font-size: 30px;
+    color: $black;
+    font-weight: 100;
+  }
+
+  .btn-primary {
+    margin-top: 30px;
+  }
+
+  .asesor-logo {
+    height: 150px;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    > .container {
+      padding: 32px;
+    }
+
+    .asesor-container {
+      margin-bottom: 32px;
+    }
+  }
+}

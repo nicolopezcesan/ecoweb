@@ -1,0 +1,60 @@
+@import "../../utils/variables";
+
+.carousel-item {
+}
+
+.video-container {
+  width: 100%;
+  height: 720px;
+}
+
+.video-cont h5 {
+  font-size: 32px;
+  font-weight: 600;
+  text-shadow: 1px 1px $grey;
+  font-family: "Titillium Web";
+}
+
+.main-title {
+  height: auto;
+  display: flex;
+  align-content: center;
+  margin: 24px 0;
+}
+
+.label {
+  display: flex;
+  justify-content: flex-end;
+
+  .label-home {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+.top-container {
+  position: relative;
+  overflow: visible;
+  background-image: url("/assets/images/carousel-bg.svg");
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-position: 130% 0;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .video-container {
+    width: 100%;
+    height: 320px;
+  }
+
+  .label {
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    .label-home {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}

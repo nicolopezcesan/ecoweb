@@ -1,0 +1,124 @@
+@import "../../utils/fonts";
+@import "../../utils/mixins";
+
+.construccion {
+  .banner-title {
+    background-color: black;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      text-align: center;
+      color: $brand-primary;
+    }
+
+    .line-below {
+      width: 160px;
+      border: 1.5px solid white;
+      margin: 12px 0 0;
+      opacity: 1;
+    }
+  }
+
+  .label {
+    display: flex;
+    justify-content: flex-end;
+
+    .label-home {
+      width: 130px;
+      height: 130px;
+    }
+  }
+
+  .imagen-slides {
+    .img-bg > img {
+      height: 100%;
+    }
+
+    .img-bg {
+      .hover-img {
+        text-align: left;
+        width: 75%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        color: white;
+        text-transform: uppercase;
+        margin-left: 15%;
+
+        .btn {
+          color: white;
+          border-color: white;
+          max-width: 90px;
+
+          &:hover {
+            border-color: $brand-primary;
+          }
+        }
+      }
+    }
+
+    .img-bg {
+      &:hover {
+        @include fade-hover;
+        .hover-img {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          h5 {
+            font-size: 20px;
+            font-weight: 700;
+            padding-bottom: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  img.img-fluid {
+    width: 100%;
+  }
+
+  .construccion-carousel {
+    .carousel {
+      .carousel-control-prev,
+      .carousel-control-next {
+        width: auto;
+      }
+
+      .bi {
+        color: $brand-primary;
+        font-size: 64px;
+      }
+
+      .carousel-item {
+        > div {
+          float: left;
+        }
+
+        > img {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+      }
+
+      .carousel-inner {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    .carousel-item > div {
+      margin: 4px 0;
+    }
+  }
+}

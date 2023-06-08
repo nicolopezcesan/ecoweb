@@ -1,0 +1,54 @@
+@import "../../utils/variables";
+
+.carousel-home {
+  .carousel-item {
+    height: 590px;
+  }
+  .carousel-item-content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .control-buttons {
+    opacity: 1;
+    bottom: 10%;
+    top: auto;
+    height: 50px;
+
+    .control-icon {
+      width: 4rem;
+      height: 4rem;
+    }
+
+    &:hover {
+      .control-icon {
+        color: $brand-primary;
+        filter: brightness(0.5) sepia(1) hue-rotate(135deg) saturate(2);
+      }
+    }
+  }
+
+  .carousel-title-container {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 24px 32px 24px 64px;
+    max-width: 60%;
+
+    h3,
+    h4 {
+      color: white;
+      line-height: 24px;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+      line-height: 32px;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import "../../utils/variables";
+
+.carousel {
+  .carousel-item-content {
+    img {
+      width: 100%;
+    }
+  }
+
+  .control-buttons {
+    opacity: 1;
+    .control-icon {
+      width: 4rem;
+      height: 4rem;
+    }
+
+    &:hover {
+      .control-icon {
+        color: $brand-primary;
+        filter: brightness(0.5) sepia(1) hue-rotate(135deg) saturate(2);
+      }
+    }
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .carousel {
+    .carousel-item-content {
+      img {
+        width: auto;
+        height: 100%;
+        margin-left: -50%;
+      }
+    }
+  }
+}

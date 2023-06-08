@@ -1,0 +1,45 @@
+@import "../../utils/fonts";
+@import "../../utils/variables";
+
+.como-llegar {
+  background-color: $grey;
+
+  h3 {
+    color: $white;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .disclaimer {
+    color: $brand-primary;
+    text-transform: lowercase;
+    margin-top: 20px;
+    font-family: "Titillium Web";
+    line-height: 1.2;
+  }
+
+  .how-container {
+    padding-bottom: 40px;
+    padding-top: 16px;
+  }
+
+  .banner-title {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .line-below {
+      width: 160px;
+      border: 2px solid $brand-primary;
+      margin: 12px 0 0;
+      opacity: 1;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    color: $white;
+  }
+}

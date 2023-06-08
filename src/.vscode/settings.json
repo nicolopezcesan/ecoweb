@@ -1,0 +1,23 @@
+{
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "html.format.wrapAttributes": "preserve-aligned",
+  "html.format.wrapLineLength": 80,
+  "editor.wordWrap": "on",
+  "editor.wrappingIndent": "same",
+  "editor.wordWrapColumn": 80,
+  "prettier.printWidth": 80,
+  "git.autofetch": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}

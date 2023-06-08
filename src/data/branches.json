@@ -1,0 +1,108 @@
+[
+  {
+    "country": "Argentina",
+    "branches": [
+      {
+        "name": "ECOSAN S.A. SEDE CENTRAL",
+        "description": "FÁBRICA, ALQUILER Y VENTA",
+        "address": "Buszchiazzo 227 (B1611ISD) Don Torcuato, Buenos Aires, República Argentina.",
+        "phone": "(+54 11) 4846-0995",
+        "cellphone": "",
+        "email": "info@ecosan.com.ar"
+      },
+      {
+        "name": "BAHÍA BLANCA",
+        "description": "B&B CONSULTORA S.A.",
+        "address": "Lautaro 2279 Parque Industrial Bahia Blanca",
+        "phone": "(0291) 4542914 / 4558660",
+        "cellphone": "(0291) 154058578",
+        "email": "bahia@ecosan.com.ar"
+      },
+      {
+        "name": "MAR DEL PLATA",
+        "description": "B&B CONSULTORA S.A.",
+        "address": "Ruta 88 KM 1020, Mar del Plata",
+        "phone": " (0223) 523 3325",
+        "cellphone": "",
+        "email": "mardelplata@ecosan.com.ar"
+      },
+      {
+        "name": "SAN NICOLÁS",
+        "description": "OPCIONES EN SERVICIOS S.R.L",
+        "address": "Av. Savio 2051 (CP:2900) San Nicolás, Buenos Aires, República Argentina.",
+        "phone": " (0336) 449 6537",
+        "cellphone": "(0336) 154636547",
+        "email": "sannicolas@ecosan.com.ar"
+      },
+      {
+        "name": "TRENQUE LAUQUEN",
+        "description": "SERGIO JUSTO",
+        "address": "Pacheco 52 (CP:6400) Trenque Lauquen, Buenos Aires, República Argentina.",
+        "phone": " (02392) 448962",
+        "cellphone": "(0336) 154636547",
+        "email": "trenquelauquen@ecosan.com.ar"
+      },
+      {
+        "name": "ROSARIO",
+        "description": "MASE S.R.L",
+        "address": "Matienzo 1745 (CP:2000) Rosario, Santa Fe, República Argentina.",
+        "phone": " (0341) 4620982",
+        "cellphone": "(0341) 155112911",
+        "email": "rosario@ecosan.com.ar"
+      },
+      {
+        "name": "CÓRDOBA",
+        "description": "MASE S.R.L",
+        "address": "(CP:5014) Córdoba, República Argentina.",
+        "phone": " (0351) 4644367",
+        "cellphone": "(0351) 152737373",
+        "email": "cordoba@ecosan.com.ar"
+      },
+      {
+        "name": "MENDOZA",
+        "description": "ECOSAN S.A",
+        "address": "Acceso Sur 7451 (CP:5505) Corradilla, Luján de Cuyo, Mendoza, República Argentina.",
+        "phone": " (0261) 4361553",
+        "cellphone": "(0261) 155176437",
+        "email": "mendoza@ecosan.com.ar"
+      },
+      {
+        "name": "TUCUMÁN",
+        "description": "ECOSAN S.A",
+        "address": "Av. Circunvalación KM 1294 (CP:4000) Parque Industrial, San Miguel de Tucumán, República Argentina.",
+        "phone": " (0381) 4552080",
+        "cellphone": "(0381) 153001213",
+        "email": "tucuman@ecosan.com.ar"
+      },
+      {
+        "name": "NEUQUÉN",
+        "description": "ECOLOGÍA SUR S.R.L",
+        "address": "Ruta 7 km 19,7 enrte calles 9 y 10 (Q8304EOR) Centenario, Q8309, Neuquén, República Argentina.",
+        "phone": " (0381) 4552080",
+        "cellphone": "(0381) 153001213",
+        "email": "neuquen@ecosan.com.ar"
+      },
+      {
+        "name": "COMODORO RIVADAVIA",
+        "description": "ECOLOGÍA SUR S.R.L",
+        "address": "Santiago Farrel 105 (U9003JQC) Barrio Industrial, Comodoro Rivadavia, República Argentina.",
+        "phone": " (0297) 4487666",
+        "cellphone": "(0297) 4729164 / 4263151",
+        "email": "ecosanpatagonia@ecosan.com.ar"
+      }
+    ]
+  },
+  {
+    "country": "Chile",
+    "branches": [
+      {
+        "name": "Ecosan Sede Chile",
+        "description": "ECOSAN CHILE S.A.",
+        "address": "El Noviciado y Peralillo Lampa Santiago de Chile",
+        "phone": "(56) 2 2953-9974",
+        "cellphone": "9 748-81383",
+        "email": "info@ecosanchile.cl"
+      }
+    ]
+  }
+]

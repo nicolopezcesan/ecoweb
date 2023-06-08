@@ -1,0 +1,66 @@
+@import "../../utils/fonts";
+@import "../../utils/mixins";
+@import "../../utils/variables";
+
+.noticias {
+  margin: 64px 0;
+
+  .prensa-item {
+    margin-bottom: 24px;
+  }
+
+  .container-noticias {
+    > .row {
+      margin-bottom: 16px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+    .title-news {
+      font-size: 20px;
+      line-height: 24px;
+      color: black;
+      font-weight: 600;
+      margin: 10px 0 0 0;
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      .title-news {
+        color: $brand-primary;
+      }
+    }
+  }
+
+  .img-bg {
+    &:hover {
+      @include fade-hover;
+    }
+  }
+  img {
+    width: 100%;
+    height: 260px;
+  }
+
+  .button-noticias {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 0 0;
+  }
+
+  .btn-primary {
+    font-size: 16px;
+    margin-top: 10px;
+    color: $brand-primary;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    margin: 32px 0;
+  }
+}

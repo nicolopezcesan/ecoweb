@@ -1,0 +1,33 @@
+@import "../../utils/fonts";
+@import "../../utils/variables";
+
+.content {
+  margin: 64px 0;
+  font-family: "Titillium Web" !important;
+
+  h2 {
+    text-align: center;
+  }
+  .line-below {
+    width: 160px;
+    border: 2px solid $brand-primary;
+    margin: 40px auto;
+    opacity: 1;
+  }
+
+  .content-text {
+    text-align: center !important;
+    span {
+      font-size: 24px !important;
+      font-family: "Titillium Web" !important;
+      font-weight: 400 !important;
+    }
+    h2 {
+      span {
+        color: $brand-primary !important;
+        font-size: 24px !important;
+        text-transform: uppercase !important;
+      }
+    }
+  }
+}

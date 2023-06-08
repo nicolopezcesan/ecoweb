@@ -1,0 +1,196 @@
+// sass --watch app/sass:public/stylesheets
+@import "utils/fonts";
+@import "utils/variables";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+body {
+  background: #fff;
+  position: relative;
+  font-family: "Avenir";
+
+  overflow-x: hidden;
+  max-width: 100%;
+  -webkit-overflow-scrolling: auto;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  @import "commons/menu";
+  @import "commons/footer";
+  @import "commons/overrites";
+  @import "commons/branches";
+  @import "commons/presupuesto";
+
+  .home {
+    @import "pages/home";
+    @import "pages/home/rentals";
+    @import "pages/novedades/construccion-novedades";
+    @import "pages/home/carousel";
+    @import "pages/global/about";
+    @import "pages/global/newsletter";
+    @import "pages/global/carousel";
+    @import "pages/global/clients-carousel";
+    @import "pages/home/construccion";
+  }
+
+  .construccion {
+    @import "pages/construccion";
+    @import "pages/construccion/arquitectura-y-construccion";
+    @import "pages/construccion/asesor";
+    @import "pages/global/newsletter";
+    @import "pages/global/clients-carousel";
+    @import "pages/global/grid-images";
+  }
+
+// >>>>>>>>>> "INDEX.SCCS" >> X IMPORT LLAMA A PAGES/CONSTRUCCION-DETAL/ Y AL "INDEX.SCCS" >>>>>>>>>>>>>>>
+  .construccion-detail {
+    @import "pages/rentals-detail";
+    @import "pages/construccion-detail/titulo-seccion-construccion";
+    @import "pages/construccion-detail/sustentabilidad";
+    @import "pages/global/grid-images";
+    @import "pages/construccion-detail/asesor";
+    @import "pages/global/newsletter";
+    @import "pages/global/clients-carousel";
+  }
+
+  .rentals {
+    @import "pages/rentals";
+    @import "pages/rentals/about-rentals";
+    @import "pages/global/grid-images";
+    @import "pages/rentals/asesor-red-bg";
+    @import "pages/global/newsletter";
+    @import "pages/global/clients-carousel";
+  }
+
+  .rentals-detail {
+    @import "pages/rentals-detail";
+    @import "pages/rentals-detail/como-llegar";
+    @import "pages/rentals-detail/security";
+    @import "pages/rentals-detail/about-rentals";
+    @import "pages/global/grid-images";
+    @import "pages/rentals-detail/asesor-red-bg";
+    @import "pages/global/newsletter";
+    @import "pages/global/clients-carousel";
+  }
+
+  .nosotros {
+    @import "pages/nosotros";
+    @import "pages/global/about";
+    @import "pages/global/grid-images";
+    @import "pages/nosotros/certification";
+    @import "pages/global/newsletter";
+    @import "pages/global/clients-carousel";
+
+    a.rentals-more {
+      display: none;
+    }
+  }
+
+  .contacto {
+    @import "pages/contacto";
+    @import "pages/global/newsletter";
+    @import "pages/global/clients-carousel";
+    @import "pages/contacto/como-llegar";
+    @import "pages/contacto/map";
+    @import "pages/contacto/form";
+  }
+
+  .novedades {
+    @import "pages/novedades";
+    @import "pages/novedades/construccion-novedades";
+    @import "pages/novedades/prensa";
+    @import "pages/global/clients-carousel";
+    @import "pages/global/newsletter";
+    @import "pages/novedades/noticias";
+  }
+
+  .novedades-detail {
+    @import "pages/novedades/carousel";
+    @import "pages/construccion/asesor";
+    @import "pages/global/content";
+    @import "pages/global/clients-carousel";
+    @import "pages/global/newsletter";
+  }
+  .page {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  ul,
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    font-family: "Avenir";
+    font-size: 34px;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-family: "Titillium Web";
+    font-size: 28px;
+    color: $brand-primary;
+    line-height: 40px;
+  }
+
+  .btn {
+    &.btn-xs {
+      padding: 2px 8px;
+      font-size: 12px;
+      border: 1px solid;
+    }
+  }
+
+  .img-fluid {
+    width: 100%;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    body {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    body::-webkit-scrollbar {
+      display: none;
+    }
+
+    .page {
+      margin-top: 0;
+    }
+    h1,
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 16px;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+    }
+
+    h4 {
+      font-size: 1.2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      padding: 4px 8px;
+      font-size: 0.9rem;
+    }
+  }
+}

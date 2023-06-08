@@ -1,0 +1,37 @@
+@mixin fade-hover {
+  background-color: black;
+  cursor: pointer;
+  position: relative;
+
+  img {
+    opacity: 0.6;
+    transition: opacity 0.4s ease-out;
+    -moz-transition: opacity 0.4s ease-out;
+    -webkit-transition: opacity 0.4s ease-out;
+    -o-transition: opacity 0.4s ease-out;
+  }
+}
+
+@mixin fade-hover-color {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease-in-out;
+
+  &:hover {
+    filter: grayscale(0%);
+  }
+}
+
+@mixin fade-hover-color-inverse {
+  background-color: black;
+  cursor: pointer;
+  position: relative;
+  opacity: 0.6;
+
+  img {
+    opacity: 1;
+    transition: opacity 0.4s ease-out;
+    -moz-transition: opacity 0.4s ease-out;
+    -webkit-transition: opacity 0.4s ease-out;
+    -o-transition: opacity 0.4s ease-out;
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "BAÑOS QUIMICOS",
+    "link": "/rentals-detail.php",
+    "image": "/assets/images/casousel-rental-1.png"
+  },
+  {
+    "name": "RENTAL EVENTOS: OFICINAS, SANITARIOS, CAMARINES, BOLETERIAS Y PAÑOLES.",
+    "link": "/rentals-detail.php",
+    "image": "/assets/images/casousel-rental-2.png"
+  },
+  {
+    "name": "DUCHAS",
+    "link": "/rentals-detail.php",
+    "image": "/assets/images/casousel-rental-3.png"
+  },
+  {
+    "name": "CABINAS DE VIGILANCIA",
+    "link": "/rentals-detail.php",
+    "image": "/assets/images/casousel-rental-4.png"
+  },
+  {
+    "name": "PUESTOS POLICIALES BLINDADOS: RB1/RB2/RB3 CON CENTRAL DE MONITOREO",
+    "link": "/rentals-detail.php",
+    "image": "/assets/images/casousel-rental-5.png"
+  },
+  {
+    "name": "HABITÁCULOS MOVILES: OFICINAS, DORMIS, COMEDORES, COCINAS, PUESTOS SANITARIOS",
+    "link": "/rentals-detail.php",
+    "image": "/assets/images/casousel-rental-6.png"
+  },
+  {
+    "name": "HMC CONFORT",
+    "link": "/rentals-detail.php",
+    "image": "/assets/images/casousel-rental-7.png"
+  },
+  {
+    "name": "CONTAINERS",
+    "link": "/rentals-detail.php",
+    "image": "/assets/images/casousel-rental-8.png"
+  },
+  {
+    "name": "SHELTERS",
+    "link": "/rentals-detail.php",
+    "image": "/assets/images/casousel-rental-9.png"
+  }
+]

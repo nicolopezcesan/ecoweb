@@ -1,0 +1,42 @@
+@import "../../utils/variables";
+
+.nosotros {
+  margin-top: 90px;
+
+  img.img-fluid {
+    width: 100%;
+  }
+
+  .carousel-item {
+    max-height: 500px;
+  }
+
+  h5 {
+    font-size: 32px;
+    font-weight: 600;
+    text-shadow: 1px 1px $grey;
+    font-family: "Titillium Web";
+  }
+
+  .main-title {
+    height: 280px;
+    display: flex;
+    align-content: center;
+  }
+
+  .label {
+    display: flex;
+    justify-content: flex-end;
+
+    .label-home {
+      width: 130px;
+      height: 130px;
+    }
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .top-container {
+    padding: 0;
+  }
+}

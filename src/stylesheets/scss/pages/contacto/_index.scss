@@ -1,0 +1,95 @@
+@import "../../utils/fonts";
+
+.contacto {
+  padding-top: 80px;
+
+  .banner-title {
+    background-color: black;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      text-align: center;
+      color: $brand-primary;
+    }
+
+    .line-below {
+      width: 160px;
+      border: 1.5px solid white;
+      margin: 12px 0 0;
+      opacity: 1;
+    }
+  }
+
+  .label {
+    display: flex;
+    justify-content: flex-end;
+
+    .label-home {
+      width: 130px;
+      height: 130px;
+    }
+  }
+
+  .imagen-slides {
+    .img-bg > img {
+      min-height: 320px;
+      height: 100%;
+    }
+
+    .img-bg {
+      .hover-img {
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        color: white;
+        text-transform: uppercase;
+        margin-left: 10%;
+
+        .btn {
+          color: white;
+          border-color: white;
+          max-width: 90px;
+        }
+      }
+    }
+
+    .img-bg {
+      &:hover {
+        background-color: black;
+        cursor: pointer;
+        position: relative;
+        img {
+          opacity: 0.6;
+        }
+
+        .hover-img {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          h5 {
+            font-size: 20px;
+            font-weight: 700;
+            padding-bottom: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  img.img-fluid {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .top-container {
+    padding: 0;
+  }
+}

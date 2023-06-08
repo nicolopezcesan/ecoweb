@@ -1,0 +1,36 @@
+@import "../../utils/variables";
+
+.novedades {
+  margin-top: 90px;
+  background-image: url("/assets/images/top-bg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  .carousel-item {
+    max-height: 500px;
+  }
+
+  h5 {
+    font-size: 32px;
+    font-weight: 600;
+    text-shadow: 1px 1px $grey;
+    font-family: "Titillium Web";
+  }
+
+  .main-title {
+    height: 280px;
+    display: flex;
+    align-content: center;
+  }
+
+  .label {
+    display: flex;
+    justify-content: flex-end;
+
+    .label-home {
+      width: 130px;
+      height: 130px;
+    }
+  }
+}

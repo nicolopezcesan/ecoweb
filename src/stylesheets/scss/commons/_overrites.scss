@@ -1,0 +1,25 @@
+@import "../utils/variables";
+
+.btn-primary,
+.btn-secondary {
+  background-color: transparent;
+  border-radius: 0;
+  font-family: "Avenir";
+  padding: 14px 32px;
+  color: #000;
+  border: 2px solid #000;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $brand-primary;
+  }
+}
+
+.btn-primary {
+  color: #fff;
+
+  &:hover {
+    background-color: black;
+    border: 2px solid #000;
+  }
+}

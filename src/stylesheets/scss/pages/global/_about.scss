@@ -1,0 +1,109 @@
+@import "../../utils/fonts";
+@import "../../utils/variables";
+
+.about {
+  background-image: url("/assets/images/about-bg.svg");
+  background-size: cover;
+  padding-bottom: 64px;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  padding-top: 120px;
+  position: relative;
+
+  .about-container {
+    padding-bottom: 200px;
+    background-image: url("/assets/images/about-pic.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .about-items {
+    background-color: $grey;
+    margin-top: -1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 32px 40px;
+
+    .item {
+      color: white;
+
+      hr {
+        height: 2px;
+        background-color: $brand-primary;
+        opacity: 1;
+      }
+
+      img {
+        margin-bottom: 32px;
+        height: 45px;
+      }
+      h4 {
+        font-family: "Titillium Web";
+        font-size: 32px;
+        font-weight: 300;
+      }
+      p {
+        font-family: "Avenir";
+        font-size: 14px;
+        line-height: 10px;
+      }
+    }
+  }
+
+  h3 {
+    color: $brand-secondary;
+  }
+
+  .rentals-more {
+    margin-top: 32px;
+
+    &:hover {
+      border-color: $brand-primary;
+    }
+  }
+
+  .banner-title {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 80px;
+
+    .line-below {
+      width: 160px;
+      border: 2px solid $brand-primary;
+      margin: 12px 0 0;
+      opacity: 1;
+    }
+  }
+
+  a {
+    border-color: $brand-primary;
+    color: white;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    padding: 0;
+
+    .contact-button {
+      display: none;
+    }
+    .banner-title {
+      padding: 32px;
+    }
+
+    h3 {
+      background-color: rgba(255, 255, 255, 0.8);
+      margin: 16px;
+      line-height: 24px;
+      padding: 8px;
+    }
+  }
+}

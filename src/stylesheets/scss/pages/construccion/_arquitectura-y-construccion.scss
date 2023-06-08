@@ -1,0 +1,64 @@
+@import "../../utils/fonts";
+@import "../../utils/variables";
+
+.arquitectura-y-construccion {
+  background-image: url("/assets/images/background-arq-construccion.svg");
+  padding-bottom: 64px;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  padding-top: 100px;
+  position: relative;
+  background-size: cover;
+
+  h3 {
+    font-size: 24px;
+    color: $white;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .disclaimer {
+    font-size: 36px;
+    color: $brand-primary;
+    margin-top: 20px;
+    font-family: "Titillium Web";
+    line-height: 1.2;
+  }
+
+  .rentals-more {
+    margin-top: 32px;
+  }
+
+  .banner-title {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 80px;
+
+    .line-below {
+      width: 160px;
+      border: 2px solid $brand-primary;
+      margin: 12px 0 0;
+      opacity: 1;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    color: $white;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    padding-top: 60px;
+
+    h3 {
+      font-size: 18px;
+    }
+
+    .disclaimer {
+      font-size: 22px;
+    }
+  }
+}
