@@ -43,13 +43,13 @@ body {
     @import "pages/global/grid-images";
   }
 
-// >>>>>>>>>> "INDEX.SCCS" >> X IMPORT LLAMA A PAGES/CONSTRUCCION-DETAL/ Y AL "INDEX.SCCS" >>>>>>>>>>>>>>>
+  // >>>>>>>>>> "INDEX.SCCS" >> X IMPORT LLAMA A PAGES/CONSTRUCCION-DETAL/ Y AL "INDEX.SCCS" >>>>>>>>>>>>>>>
   .construccion-detail {
     @import "pages/rentals-detail";
-    @import "pages/construccion-detail/titulo-seccion-construccion";
-    @import "pages/construccion-detail/sustentabilidad";
+    // @import "pages/construccion-detail/titulo-seccion-construccion";
+    // @import "pages/construccion-detail/sustentabilidad";
+    // @import "pages/construccion-detail/asesor";
     @import "pages/global/grid-images";
-    @import "pages/construccion-detail/asesor";
     @import "pages/global/newsletter";
     @import "pages/global/clients-carousel";
   }
@@ -112,6 +112,7 @@ body {
     @import "pages/global/clients-carousel";
     @import "pages/global/newsletter";
   }
+
   .page {
     background-size: contain;
     background-repeat: no-repeat;
@@ -170,6 +171,7 @@ body {
     .page {
       margin-top: 0;
     }
+
     h1,
     h2 {
       font-size: 1.5rem;
