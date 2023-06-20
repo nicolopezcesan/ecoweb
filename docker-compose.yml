@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   web:
-    container_name: ecoweb-web
+    container_name: nicoweb-web
     build:
       context: ./
       dockerfile: Dockerfile
@@ -16,7 +16,7 @@ services:
     networks:
       - app-network
   mysql:
-    container_name: ecoweb-mysql
+    container_name: nicoweb-mysql
     image: mysql:latest
     restart: always
     environment:
@@ -27,7 +27,7 @@ services:
     networks:
       - app-network
   phpmyadmin:
-    container_name: ecoweb-myadmin
+    container_name: nicoweb-myadmin
     image: phpmyadmin/phpmyadmin
     ports:
       - '8080:80'

@@ -49,6 +49,8 @@ body {
   max-width: 100%;
   -webkit-overflow-scrolling: auto;
   width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 body .menu {
@@ -96,7 +98,7 @@ body .menu .menu-links li a.selected {
 body .menu .menu-links li:after {
   content: "";
   position: absolute;
-  right: -36px;
+  right: -40px;
   top: calc(50% - 4px);
   width: 6px;
   height: 6px;
@@ -121,6 +123,11 @@ body .menu .navbar-toggler .bi {
 }
 body .menu .navbar-toggler:focus {
   box-shadow: none;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body .menu .menu-links li:after {
+    right: -20px;
+  }
 }
 @media only screen and (max-device-width: 480px) {
   body .menu {
@@ -931,6 +938,29 @@ body .home .carousel-home .carousel-title-container h3 {
   padding: 0;
   line-height: 32px;
 }
+@media only screen and (min-width: 481px) and (max-width: 770px) {
+  body .home .carousel-home .carousel-title-container {
+    max-width: 100%;
+  }
+  body .home .carousel-home .carousel-title-container h4 {
+    font-size: 20px;
+  }
+  body .home .carousel-home .carousel-title-container h3 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body .home .carousel-home .carousel-title-container {
+    max-width: 100%;
+    padding: 10px 5% 5% 10%;
+  }
+  body .home .carousel-home .carousel-title-container h4 {
+    font-size: 15px;
+  }
+  body .home .carousel-home .carousel-title-container h3 {
+    font-size: 10px;
+  }
+}
 @font-face {
   font-family: "Avenir";
   src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
@@ -1017,6 +1047,7 @@ body .home .about .about-items .item h4 {
 body .home .about .about-items .item p {
   font-family: "Avenir";
   font-size: 14px;
+  line-height: 10px;
 }
 body .home .about h3 {
   color: #004b37;
@@ -1950,6 +1981,461 @@ body .construccion .grid-images .banner-title .second-line-below {
   font-style: normal;
   font-display: swap;
 }
+body .construccion-detail .rentals-detail {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+body .construccion-detail .rentals-detail img.img-fluid {
+  padding-top: 80px;
+}
+body .construccion-detail .rentals-detail .banner-title {
+  background-color: black;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .construccion-detail .rentals-detail .banner-title h2 {
+  text-align: center;
+  color: #00a89c;
+}
+body .construccion-detail .rentals-detail .banner-title .line-below {
+  width: 160px;
+  border: 1.5px solid white;
+  margin: 12px 0 0;
+  opacity: 1;
+}
+body .construccion-detail .rentals-detail .label {
+  display: flex;
+  justify-content: flex-end;
+}
+body .construccion-detail .rentals-detail .label .label-home {
+  width: 130px;
+  height: 130px;
+}
+body .construccion-detail .rentals-detail .imagen-slides .img-bg > img {
+  min-height: 320px;
+  height: 100%;
+}
+body .construccion-detail .rentals-detail .imagen-slides .img-bg .hover-img {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 10%;
+}
+body .construccion-detail .rentals-detail .imagen-slides .img-bg .hover-img .btn {
+  color: white;
+  border-color: white;
+  max-width: 90px;
+}
+body .construccion-detail .rentals-detail .imagen-slides .img-bg:hover {
+  background-color: black;
+  cursor: pointer;
+  position: relative;
+}
+body .construccion-detail .rentals-detail .imagen-slides .img-bg:hover img {
+  opacity: 0.6;
+  transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  -webkit-transition: opacity 0.4s ease-out;
+  -o-transition: opacity 0.4s ease-out;
+}
+body .construccion-detail .rentals-detail .imagen-slides .img-bg:hover .hover-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .construccion-detail .rentals-detail .imagen-slides .img-bg:hover .hover-img h5 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+body .construccion-detail .rentals-detail img.img-fluid {
+  width: 100%;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/AvenirLTStd-Black.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Black.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Black.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/AvenirLTStd-Roman.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Roman.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Roman.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/assets/fonts/TitilliumWeb-Light.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Light.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Light.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Light.svg#TitilliumWeb-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/assets/fonts/TitilliumWeb-Regular.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Regular.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Regular.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Regular.svg#TitilliumWeb-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/assets/fonts/TitilliumWeb-SemiBold.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-SemiBold.woff") format("woff"), url("/assets/fonts/TitilliumWeb-SemiBold.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+body .construccion-detail .grid-images {
+  background-color: #ffffff;
+}
+body .construccion-detail .grid-images .carousel {
+  padding: 0;
+}
+body .construccion-detail .grid-images .carousel img {
+  position: relative;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+body .construccion-detail .grid-images .carousel .hover-img {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 10%;
+}
+body .construccion-detail .grid-images .carousel .hover-img .btn {
+  color: white;
+  border-color: white;
+  max-width: 90px;
+}
+body .construccion-detail .grid-images .carousel .hover-img .btn:hover {
+  border-color: #00a89c;
+}
+body .construccion-detail .grid-images .carousel:hover {
+  background-color: black;
+  cursor: pointer;
+  position: relative;
+}
+body .construccion-detail .grid-images .carousel:hover img {
+  opacity: 0.6;
+  transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  -webkit-transition: opacity 0.4s ease-out;
+  -o-transition: opacity 0.4s ease-out;
+}
+body .construccion-detail .grid-images .carousel:hover .hover-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .construccion-detail .grid-images .carousel:hover .hover-img h5 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+body .construccion-detail .grid-images .banner-title {
+  background-color: #3b3b3b;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .construccion-detail .grid-images .banner-title h2 {
+  text-align: center;
+  color: #ffffff;
+}
+body .construccion-detail .grid-images .banner-title .line-below {
+  width: 160px;
+  border: 2px solid #9e1d25;
+  margin: 12px 0 0;
+  opacity: 1;
+}
+body .construccion-detail .grid-images .banner-title .second-line-below {
+  width: 160px;
+  border: 1px solid #00a89c;
+  margin: 12px 0 0;
+  opacity: 1;
+}
+@media only screen and (max-device-width: 480px) {
+  body .construccion-detail .grid-images {
+    padding-bottom: 16px;
+  }
+  body .construccion-detail .grid-images .banner-title {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  body .construccion-detail .grid-images .img-fluid .row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  body .construccion-detail .grid-images .img-fluid .carousel {
+    border: 2px solid white;
+  }
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/AvenirLTStd-Black.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Black.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Black.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/AvenirLTStd-Roman.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Roman.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Roman.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/assets/fonts/TitilliumWeb-Light.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Light.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Light.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Light.svg#TitilliumWeb-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/assets/fonts/TitilliumWeb-Regular.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Regular.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Regular.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Regular.svg#TitilliumWeb-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/assets/fonts/TitilliumWeb-SemiBold.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-SemiBold.woff") format("woff"), url("/assets/fonts/TitilliumWeb-SemiBold.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+body .construccion-detail .newsletter {
+  background-color: #d9d9d9;
+  height: 160px;
+}
+body .construccion-detail .newsletter > .container {
+  height: inherit;
+}
+body .construccion-detail .newsletter .newsletter-container {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 75%;
+  margin: 0 auto;
+}
+body .construccion-detail .newsletter .newsletter-container .bi {
+  font-size: 40px;
+  color: #00a89c;
+}
+body .construccion-detail .newsletter .newsletter-container input {
+  max-width: 360px;
+  border-radius: 0;
+  border: 2px solid black;
+}
+body .construccion-detail .newsletter .newsletter-container h2 {
+  font-size: 20px;
+}
+body .construccion-detail .newsletter .newsletter-container .btn {
+  border-radius: 0;
+  color: #00a89c;
+}
+@media only screen and (max-device-width: 480px) {
+  body .construccion-detail .newsletter {
+    height: auto;
+    padding: 16px 0 32px;
+    text-align: center;
+  }
+  body .construccion-detail .newsletter .newsletter-container {
+    height: inherit;
+    gap: 18px;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 90%;
+    flex-direction: column;
+  }
+}
+body .construccion-detail .clients-carousel .carousel .bi {
+  color: #00a89c;
+  font-size: 32px;
+}
+body .construccion-detail .clients-carousel .carousel .carousel-item {
+  height: 90px;
+}
+body .construccion-detail .clients-carousel .carousel .carousel-item > div {
+  float: left;
+}
+body .construccion-detail .clients-carousel .carousel .carousel-item > img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+body .construccion-detail .clients-carousel .carousel .carousel-inner {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+body .construccion-detail .carousel-inner .active.left {
+  left: -33%;
+}
+body .construccion-detail .carousel-inner .active.right {
+  left: 33%;
+}
+body .construccion-detail .carousel-inner .next {
+  left: 33%;
+}
+body .construccion-detail .carousel-inner .prev {
+  left: -33%;
+}
+body .construccion-detail .carousel-control.left {
+  background-image: none;
+}
+body .construccion-detail .carousel-control.right {
+  background-image: none;
+}
+body .construccion-detail .carousel-inner .item {
+  background: white;
+}
+body .construccion-detail .clients-carousel {
+  background-color: white;
+  margin: 0;
+}
+body .construccion-detail .clients-carousel .container {
+  padding-bottom: 64px;
+}
+body .construccion-detail .clients-carousel .container .banner-title {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0;
+}
+body .construccion-detail .clients-carousel .container .banner-title .line-below {
+  width: 160px;
+  border: 2px solid #00a89c;
+  margin: 12px 0 0;
+  opacity: 1;
+}
+body .construccion-detail .clients-carousel .container .img-item {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease-in-out;
+}
+body .construccion-detail .clients-carousel .container .img-item:hover {
+  filter: grayscale(0%);
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/AvenirLTStd-Black.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Black.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Black.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/AvenirLTStd-Roman.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Roman.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Roman.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/assets/fonts/TitilliumWeb-Light.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Light.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Light.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Light.svg#TitilliumWeb-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/assets/fonts/TitilliumWeb-Regular.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Regular.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Regular.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Regular.svg#TitilliumWeb-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/assets/fonts/TitilliumWeb-SemiBold.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-SemiBold.woff") format("woff"), url("/assets/fonts/TitilliumWeb-SemiBold.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/AvenirLTStd-Black.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Black.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Black.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/AvenirLTStd-Roman.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Roman.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Roman.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/assets/fonts/TitilliumWeb-Light.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Light.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Light.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Light.svg#TitilliumWeb-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/assets/fonts/TitilliumWeb-Regular.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Regular.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Regular.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Regular.svg#TitilliumWeb-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/assets/fonts/TitilliumWeb-SemiBold.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-SemiBold.woff") format("woff"), url("/assets/fonts/TitilliumWeb-SemiBold.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 @media only screen and (max-device-width: 480px) {
   body .rentals .rentals-img {
     display: none;
@@ -2713,7 +3199,6 @@ body .rentals-detail .rentals-detail img.img-fluid {
   font-style: normal;
   font-display: swap;
 }
-
 body .rentals-detail .como-llegar {
   background-color: #ffffff;
   padding-top: 50px;
@@ -2725,7 +3210,6 @@ body .rentals-detail .como-llegar p {
   text-align: center;
   line-height: 1.4;
 }
-
 body .rentals-detail .como-llegar p {
   color: #3b3b3b;
 }
@@ -2807,7 +3291,7 @@ body .rentals-detail .security {
   margin-top: 50px;
 }
 body .rentals-detail .security .security-title {
-  font-size: 18px;
+  font-size: 28px;
   color: #e33425;
   font-family: "Avenir";
   text-transform: uppercase;
@@ -2834,8 +3318,21 @@ body .rentals-detail .security .security-icon {
   width: 30px;
   margin-bottom: 30px;
 }
+body .rentals-detail .security .rapidez-icon {
+  width: 3px;
+  margin-bottom: 30px;
+}
 body .rentals-detail .security .justify-content-center {
   align-items: center;
+}
+@media only screen and (max-device-width: 480px) {
+  body .rentals-detail .security {
+    padding: 10px 0 0 0;
+  }
+  body .rentals-detail .security .red-text {
+    padding: 20px;
+    width: 100%;
+  }
 }
 @font-face {
   font-family: "Avenir";
@@ -2993,6 +3490,11 @@ body .rentals-detail .about-rentals .contact-button:hover {
 body .rentals-detail .about-rentals .red-bg {
   background-color: #e33425;
   padding-bottom: 56px;
+}
+@media only screen and (max-device-width: 480px) {
+  body .rentals-detail .about-rentals .about-rental-items {
+    height: auto;
+  }
 }
 @font-face {
   font-family: "Avenir";
@@ -3215,6 +3717,17 @@ body .rentals-detail .asesor-red-bg .red-text {
 body .rentals-detail .asesor-red-bg .red-woman {
   margin-top: -200px;
 }
+@media only screen and (max-device-width: 480px) {
+  body .rentals-detail .asesor-red-bg {
+    padding: 32px 16px;
+  }
+  body .rentals-detail .asesor-red-bg .red-woman {
+    margin-top: 20px;
+  }
+  body .rentals-detail .asesor-red-bg .red-text {
+    padding-top: 0;
+  }
+}
 @font-face {
   font-family: "Avenir";
   src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
@@ -3372,791 +3885,6 @@ body .rentals-detail .clients-carousel .container .img-item {
 body .rentals-detail .clients-carousel .container .img-item:hover {
   filter: grayscale(0%);
 }
-
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-body .construccion-detail .construccion-detail {
-  padding-top: 80px;
-  margin-top: -80px;
-}
-body .construccion-detail .construccion-detail img.img-fluid {
-  padding-top: 80px;
-}
-body .construccion-detail .construccion-detail .banner-title {
-  background-color: black;
-  height: 110px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-body .construccion-detail .construccion-detail .banner-title h2 {
-  text-align: center;
-  color: #00a89c;
-}
-body .construccion-detail .construccion-detail .banner-title .line-below {
-  width: 160px;
-  border: 1.5px solid white;
-  margin: 12px 0 0;
-  opacity: 1;
-}
-body .construccion-detail .construccion-detail .label {
-  display: flex;
-  justify-content: flex-end;
-}
-body .construccion-detail .construccion-detail .label .label-home {
-  width: 130px;
-  height: 130px;
-}
-body .construccion-detail .construccion-detail .imagen-slides .img-bg > img {
-  min-height: 320px;
-  height: 100%;
-}
-body .construccion-detail .construccion-detail .imagen-slides .img-bg .hover-img {
-  width: 80%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
-  color: white;
-  text-transform: uppercase;
-  margin-left: 10%;
-}
-body .construccion-detail .construccion-detail .imagen-slides .img-bg .hover-img .btn {
-  color: white;
-  border-color: white;
-  max-width: 90px;
-}
-body .construccion-detail .construccion-detail .imagen-slides .img-bg:hover {
-  background-color: black;
-  cursor: pointer;
-  position: relative;
-}
-body .construccion-detail .construccion-detail .imagen-slides .img-bg:hover img {
-  opacity: 0.6;
-  transition: opacity 0.4s ease-out;
-  -moz-transition: opacity 0.4s ease-out;
-  -webkit-transition: opacity 0.4s ease-out;
-  -o-transition: opacity 0.4s ease-out;
-}
-body .construccion-detail .construccion-detail .imagen-slides .img-bg:hover .hover-img {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-body .construccion-detail .construccion-detail .imagen-slides .img-bg:hover .hover-img h5 {
-  font-size: 20px;
-  font-weight: 700;
-  padding-bottom: 16px;
-}
-body .construccion-detail .construccion-detail img.img-fluid {
-  width: 100%;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Black.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Black.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Black.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Roman.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Roman.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Roman.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-Light.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Light.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Light.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Light.svg#TitilliumWeb-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-Regular.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Regular.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Regular.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Regular.svg#TitilliumWeb-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-SemiBold.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-SemiBold.woff") format("woff"), url("/assets/fonts/TitilliumWeb-SemiBold.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold") format("svg");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-body .construccion-detail .como-llegar {
-  background-color: #ffffff;
-  padding-top: 50px;
-}
-
-body .construccion-detail .como-llegar h3,
-body .construccion-detail .como-llegar p {
-  font-size: 22px;
-  color: #00a89c;
-  text-align: center;
-  line-height: 1.4;
-}
-body .construccion-detail .como-llegar p {
-  color: #3b3b3b;
-}
-body .construccion-detail .como-llegar .disclaimer {
-  font-size: 24px;
-  color: #000000;
-  text-transform: lowercase;
-  margin-top: 20px;
-  font-family: "Titillium Web";
-  line-height: 1.2;
-}
-body .construccion-detail .como-llegar .how-container {
-  padding-top: 40px;
-}
-body .construccion-detail .como-llegar .banner-title {
-  height: 110px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-body .construccion-detail .como-llegar .banner-title .line-below {
-  width: 160px;
-  border: 2px solid #00a89c;
-  margin: 12px 0 0;
-  opacity: 1;
-}
-body .construccion-detail .como-llegar h2 {
-  text-align: center;
-  color: #000000;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Black.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Black.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Black.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Roman.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Roman.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Roman.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-Light.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Light.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Light.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Light.svg#TitilliumWeb-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-Regular.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Regular.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Regular.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Regular.svg#TitilliumWeb-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-SemiBold.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-SemiBold.woff") format("woff"), url("/assets/fonts/TitilliumWeb-SemiBold.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold") format("svg");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-body .construccion-detail .security {
-  background-color: #d9d9d9;
-  padding: 50px;
-  position: relative;
-  background-size: cover;
-  margin-top: 50px;
-}
-body .construccion-detail .security .security-title {
-  font-size: 18px;
-  color: #e33425;
-  font-family: "Avenir";
-  text-transform: uppercase;
-  font-weight: 600;
-  line-height: 0;
-  margin-bottom: 16px;
-}
-body .construccion-detail .security .security-subtitle {
-  font-size: 16px;
-  font-family: "Avenir";
-  color: #000000;
-  font-weight: 100;
-  line-height: 1.1;
-}
-body .construccion-detail .security .btn-primary {
-  font-size: 16px;
-  margin-top: 10px;
-}
-body .construccion-detail .security .red-text {
-  padding: 50px 0 50px;
-  width: 40%;
-}
-body .construccion-detail .security .security-icon {
-  width: 30px;
-  margin-bottom: 30px;
-}
-body .construccion-detail .security .justify-content-center {
-  align-items: center;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Black.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Black.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Black.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Roman.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Roman.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Roman.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-Light.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Light.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Light.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Light.svg#TitilliumWeb-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-Regular.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Regular.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Regular.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Regular.svg#TitilliumWeb-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-SemiBold.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-SemiBold.woff") format("woff"), url("/assets/fonts/TitilliumWeb-SemiBold.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold") format("svg");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-body .construccion-detail .about-rentals {
-  background-image: url("/assets/images/rental-bg");
-  padding-bottom: 64px;
-  background-position: bottom;
-  padding-top: 120px;
-  margin-top: -80px;
-  position: relative;
-}
-body .construccion-detail .about-rentals .about-container {
-  padding-bottom: 50px;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: bottom right;
-}
-body .construccion-detail .about-rentals .about-rental-items {
-  height: 460px;
-  background-color: #ffffff;
-  margin-top: -60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 32px 40px;
-}
-body .construccion-detail .about-rentals .about-rental-items .item {
-  color: #3b3b3b;
-}
-body .construccion-detail .about-rentals .about-rental-items .item hr {
-  height: 2px;
-  background-color: #9e1d25;
-  opacity: 1;
-}
-body .construccion-detail .about-rentals .about-rental-items .item img {
-  margin-bottom: 15px;
-  height: 55px;
-}
-body .construccion-detail .about-rentals .about-rental-items .item h4 {
-  font-family: "Titillium Web";
-  font-size: 32px;
-  font-weight: 100;
-}
-body .construccion-detail .about-rentals .about-rental-items .item p {
-  font-family: "Titillium Web";
-  font-size: 20px;
-  line-height: 1.3;
-  padding-top: 10px;
-}
-body .construccion-detail .about-rentals .about-rental-items h4.title-icon {
-  font-size: 30px;
-}
-body .construccion-detail .about-rentals h3 {
-  color: #004b37;
-}
-body .construccion-detail .about-rentals .title-rentals {
-  font-size: 24px;
-  font-family: "Titillium Web";
-  line-height: 1.05;
-  padding: 0 50px 20px;
-}
-body .construccion-detail .about-rentals h2.paragraph {
-  text-transform: lowercase;
-  font-family: "Titillium Web";
-  font-weight: lighter;
-  font-size: 20px;
-  padding-bottom: 20px;
-}
-body .construccion-detail .about-rentals .rentals-more {
-  margin-top: 32px;
-}
-body .construccion-detail .about-rentals .banner-title {
-  height: 110px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 0 80px;
-}
-body .construccion-detail .about-rentals .banner-title .line-below {
-  width: 160px;
-  border: 2px solid #00a89c;
-  margin: 12px 0 0;
-  opacity: 1;
-}
-body .construccion-detail .about-rentals button {
-  border-color: #00a89c;
-  color: white;
-}
-body .construccion-detail .about-rentals h2 {
-  text-align: center;
-}
-body .construccion-detail .about-rentals .contact-button {
-  width: 70px;
-  height: 500px;
-  background-color: black;
-  color: white;
-  position: absolute;
-  right: 0;
-  top: 0;
-  cursor: pointer;
-}
-body .construccion-detail .about-rentals .contact-button .text {
-  font-family: "Titillium Web";
-  font-size: 28px;
-  transform: rotate(270deg);
-  width: 340px;
-  position: absolute;
-  right: -140px;
-  top: 180px;
-}
-body .construccion-detail .about-rentals .contact-button:hover {
-  background-color: #00a89c;
-}
-body .construccion-detail .about-rentals .red-bg {
-  background-color: #e33425;
-  padding-bottom: 56px;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Black.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Black.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Black.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Roman.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Roman.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Roman.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-Light.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Light.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Light.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Light.svg#TitilliumWeb-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-Regular.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Regular.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Regular.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Regular.svg#TitilliumWeb-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-SemiBold.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-SemiBold.woff") format("woff"), url("/assets/fonts/TitilliumWeb-SemiBold.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold") format("svg");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-body .construccion-detail .grid-images {
-  background-color: #ffffff;
-}
-body .construccion-detail .grid-images .carousel {
-  padding: 0;
-}
-body .construccion-detail .grid-images .carousel img {
-  position: relative;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-}
-body .construccion-detail .grid-images .carousel .hover-img {
-  width: 80%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
-  color: white;
-  text-transform: uppercase;
-  margin-left: 10%;
-}
-body .construccion-detail .grid-images .carousel .hover-img .btn {
-  color: white;
-  border-color: white;
-  max-width: 90px;
-}
-body .construccion-detail .grid-images .carousel .hover-img .btn:hover {
-  border-color: #00a89c;
-}
-body .construccion-detail .grid-images .carousel:hover {
-  background-color: black;
-  cursor: pointer;
-  position: relative;
-}
-body .construccion-detail .grid-images .carousel:hover img {
-  opacity: 0.6;
-  transition: opacity 0.4s ease-out;
-  -moz-transition: opacity 0.4s ease-out;
-  -webkit-transition: opacity 0.4s ease-out;
-  -o-transition: opacity 0.4s ease-out;
-}
-body .construccion-detail .grid-images .carousel:hover .hover-img {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-body .construccion-detail .grid-images .carousel:hover .hover-img h5 {
-  font-size: 20px;
-  font-weight: 700;
-  padding-bottom: 16px;
-}
-body .construccion-detail .grid-images .banner-title {
-  background-color: #3b3b3b;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-body .construccion-detail .grid-images .banner-title h2 {
-  text-align: center;
-  color: #ffffff;
-}
-body .construccion-detail .grid-images .banner-title .line-below {
-  width: 160px;
-  border: 2px solid #9e1d25;
-  margin: 12px 0 0;
-  opacity: 1;
-}
-body .construccion-detail .grid-images .banner-title .second-line-below {
-  width: 160px;
-  border: 1px solid #00a89c;
-  margin: 12px 0 0;
-  opacity: 1;
-}
-@media only screen and (max-device-width: 480px) {
-  body .construccion-detail .grid-images {
-    padding-bottom: 16px;
-  }
-  body .construccion-detail .grid-images .banner-title {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  body .construccion-detail .grid-images .img-fluid .row {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-  }
-  body .construccion-detail .grid-images .img-fluid .carousel {
-    border: 2px solid white;
-  }
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Black.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Black.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Black.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Roman.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Roman.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Roman.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-Light.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Light.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Light.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Light.svg#TitilliumWeb-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-Regular.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Regular.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Regular.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Regular.svg#TitilliumWeb-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-SemiBold.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-SemiBold.woff") format("woff"), url("/assets/fonts/TitilliumWeb-SemiBold.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold") format("svg");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-body .construccion-detail .asesor-red-bg {
-  background-image: url("/assets/images/background-red-asesor.svg");
-  padding: 50px 130px;
-  position: relative;
-  background-size: cover;
-}
-body .construccion-detail .asesor-red-bg .asesor-title {
-  font-size: 24px;
-  color: #000000;
-  font-family: "Avenir";
-  text-transform: uppercase;
-  font-weight: 600;
-  line-height: 0;
-}
-body .construccion-detail .asesor-red-bg .asesor-subtitle {
-  font-size: 22px;
-  color: #000000;
-  font-weight: 100;
-}
-body .construccion-detail .asesor-red-bg .red-asesor-title {
-  color: #000000;
-  font-weight: 600;
-  font-size: 26px;
-}
-body .construccion-detail .asesor-red-bg .red-asesor-subtitle {
-  color: #ffffff;
-  font-size: 22px;
-  line-height: 1.1;
-}
-body .construccion-detail .asesor-red-bg .red-asesor-container {
-  padding-bottom: 40px;
-  width: 90%;
-}
-body .construccion-detail .asesor-red-bg .btn-primary {
-  font-size: 16px;
-  margin-top: 10px;
-}
-body .construccion-detail .asesor-red-bg .red-text {
-  padding-top: 50px;
-}
-body .construccion-detail .asesor-red-bg .red-woman {
-  margin-top: -200px;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Black.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Black.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Black.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("/assets/fonts/AvenirLTStd-Roman.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Roman.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Roman.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-Light.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Light.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Light.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Light.svg#TitilliumWeb-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-Regular.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-Regular.woff") format("woff"), url("/assets/fonts/TitilliumWeb-Regular.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-Regular.svg#TitilliumWeb-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Titillium Web";
-  src: url("/assets/fonts/TitilliumWeb-SemiBold.woff2") format("woff2"), url("/assets/fonts/TitilliumWeb-SemiBold.woff") format("woff"), url("/assets/fonts/TitilliumWeb-SemiBold.ttf") format("truetype"), url("/assets/fonts/TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold") format("svg");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-body .construccion-detail .newsletter {
-  background-color: #d9d9d9;
-  height: 160px;
-}
-body .construccion-detail .newsletter > .container {
-  height: inherit;
-}
-body .construccion-detail .newsletter .newsletter-container {
-  height: inherit;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  max-width: 75%;
-  margin: 0 auto;
-}
-body .construccion-detail .newsletter .newsletter-container .bi {
-  font-size: 40px;
-  color: #00a89c;
-}
-body .construccion-detail .newsletter .newsletter-container input {
-  max-width: 360px;
-  border-radius: 0;
-  border: 2px solid black;
-}
-body .construccion-detail .newsletter .newsletter-container h2 {
-  font-size: 20px;
-}
-body .construccion-detail .newsletter .newsletter-container .btn {
-  border-radius: 0;
-  color: #00a89c;
-}
-@media only screen and (max-device-width: 480px) {
-  body .construccion-detail .newsletter {
-    height: auto;
-    padding: 16px 0 32px;
-    text-align: center;
-  }
-  body .construccion-detail .newsletter .newsletter-container {
-    height: inherit;
-    gap: 18px;
-    align-items: center;
-    justify-content: space-evenly;
-    max-width: 90%;
-    flex-direction: column;
-  }
-}
-body .construccion-detail .clients-carousel .carousel .bi {
-  color: #00a89c;
-  font-size: 32px;
-}
-body .construccion-detail .clients-carousel .carousel .carousel-item {
-  height: 90px;
-}
-body .construccion-detail .clients-carousel .carousel .carousel-item > div {
-  float: left;
-}
-body .construccion-detail .clients-carousel .carousel .carousel-item > img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-body .construccion-detail .clients-carousel .carousel .carousel-inner {
-  display: flex;
-  width: 85%;
-  margin: 0 auto;
-}
-body .construccion-detail .carousel-inner .active.left {
-  left: -33%;
-}
-body .construccion-detail .carousel-inner .active.right {
-  left: 33%;
-}
-body .construccion-detail .carousel-inner .next {
-  left: 33%;
-}
-body .construccion-detail .carousel-inner .prev {
-  left: -33%;
-}
-body .construccion-detail .carousel-control.left {
-  background-image: none;
-}
-body .construccion-detail .carousel-control.right {
-  background-image: none;
-}
-body .construccion-detail .carousel-inner .item {
-  background: white;
-}
-body .construccion-detail .clients-carousel {
-  background-color: white;
-  margin: 0;
-}
-body .construccion-detail .clients-carousel .container {
-  padding-bottom: 64px;
-}
-body .construccion-detail .clients-carousel .container .banner-title {
-  height: 110px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 80px 0;
-}
-body .construccion-detail .clients-carousel .container .banner-title .line-below {
-  width: 160px;
-  border: 2px solid #00a89c;
-  margin: 12px 0 0;
-  opacity: 1;
-}
-body .construccion-detail .clients-carousel .container .img-item {
-  filter: grayscale(100%);
-  transition: filter 0.4s ease-in-out;
-}
-body .construccion-detail .clients-carousel .container .img-item:hover {
-  filter: grayscale(0%);
-}    
-
-/* ///////////////////////// */
-
 body .nosotros .nosotros {
   margin-top: 90px;
 }
@@ -4276,6 +4004,7 @@ body .nosotros .about .about-items .item h4 {
 body .nosotros .about .about-items .item p {
   font-family: "Avenir";
   font-size: 14px;
+  line-height: 10px;
 }
 body .nosotros .about h3 {
   color: #004b37;
@@ -5219,9 +4948,6 @@ body .contacto .form .box {
 body .contacto .form .text-box {
   height: 250px;
   border: 2px solid #00a89c;
-}
-body .contacto .form input::-moz-placeholder {
-  padding: 8px;
 }
 body .contacto .form input::placeholder {
   padding: 8px;
@@ -6247,8 +5973,8 @@ body .img-fluid {
 }
 @media only screen and (max-device-width: 480px) {
   body body {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
   body body::-webkit-scrollbar {
     display: none;
@@ -6274,4 +6000,6 @@ body .img-fluid {
     padding: 4px 8px;
     font-size: 0.9rem;
   }
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
