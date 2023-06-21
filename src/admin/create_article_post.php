@@ -1,4 +1,5 @@
 <?php
+include_once './login/includes/auth-middleware.php';
 
 if (!empty($_POST['title'])) {
   

@@ -1,4 +1,6 @@
 <?php
+  include_once './login/includes/auth-middleware.php';
+  
   if ($_GET['article_id'] != '') {
     include_once '../mysql/mysql.php';
 

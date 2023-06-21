@@ -24,5 +24,5 @@ if ($_POST['title'] && $_POST['article_id']) {
 
   $conn->close();
 }
-  
+
 ?>

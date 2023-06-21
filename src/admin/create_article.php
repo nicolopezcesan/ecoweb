@@ -1,8 +1,10 @@
+<?php include_once './login/includes/auth-middleware.php'; ?>
+
 <!doctype html>
 <html lang="es">
 
 <head>
-  <?php include 'commons/head.php' ?>
+<?php include 'commons/head.php' ?>
 </head>
 
 <body>

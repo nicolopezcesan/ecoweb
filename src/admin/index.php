@@ -1,5 +1,6 @@
 <?php
 
+  include_once './login/includes/auth-middleware.php';
   include_once '../mysql/mysql.php';
 
   $sql = 'SELECT * FROM articles WHERE type = 1 ORDER BY date ASC';
@@ -12,4 +13,4 @@
   include_once 'dashboard.php';
 
   $conn->close();
-?>
+  ?>
