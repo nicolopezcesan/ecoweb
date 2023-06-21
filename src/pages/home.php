@@ -2,7 +2,7 @@
 
   $images_data;
 
-  $sql = 'SELECT title, subtitle, link FROM articles, images WHERE type = 4 AND images.article = articles.article_id ORDER BY articles.title DESC;';
+  $sql = 'SELECT title, subtitle, link FROM articles, images WHERE type = 4 AND images.article = articles.article_id ORDER BY articles.priority;';
   $result = $conn->query($sql);
 
   if ($result->num_rows > 0) {

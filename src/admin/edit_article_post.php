@@ -8,6 +8,7 @@ if ($_POST['title'] && $_POST['article_id']) {
             title = "'.strip_tags(addslashes($_POST['title'])).'",
             subtitle = "'.strip_tags(addslashes($_POST['subtitle'])).'",
             content = "'.addslashes($_POST['content']).'",
+            priority = "'.addslashes($_POST['priority']).'",
             type = "'.$_POST['type'].'" 
           WHERE article_id = "'.$_POST['article_id'].'";';
 

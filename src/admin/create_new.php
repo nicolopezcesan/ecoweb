@@ -60,7 +60,12 @@
 
 
         <div class="form-row">
-          <div class="form-group col-md-12">
+        <div class="form-group col-md-2">
+            <label for="priority">Priority</label>
+            <input type="number" class="form-control" id="priority" name="priority"
+                   required placeholder="1" />
+          </div>
+          <div class="form-group col-md-10">
             <label for="title">Title</label>
             <input type="text" class="form-control" id="title" name="title"
                    required placeholder="Ej: Habitamos el Futuro." />

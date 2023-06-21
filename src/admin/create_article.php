@@ -56,7 +56,12 @@
         <input type="hidden" name="type"
                value="<?php echo isset($_GET['type']) ? $_GET['type'] : 1 ?>" />
         <div class="form-row">
-          <div class="form-group col-md-12">
+        <div class="form-group col-md-2">
+            <label for="title">Priority</label>
+            <input type="number" class="form-control" id="priority" name="priority"
+                   required placeholder="1" />
+          </div>
+          <div class="form-group col-md-10">
             <label for="title">Name</label>
             <input type="text" class="form-control" id="name" name="name"
                    required placeholder="Ej: Arquitectura / Construcción" />

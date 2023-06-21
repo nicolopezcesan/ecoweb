@@ -67,8 +67,14 @@
         <input type="hidden" name="type"
                value="<?php echo $row['type'] ?>" />
         <div class="form-row">
-          <div class="form-group col-md-12">
-            <label for="title">Title</label>
+          <div class="form-group col-md-2">
+            <label for="title">Priority</label>
+            <input type="text" value="<?php echo $row['priority'] ?>"
+                   class="form-control" id="priority" name="priority" required
+                   placeholder="<?php echo $row['priority'] ?>" />
+          </div>
+          <div class="form-group col-md-10">
+            <label for="title">Nombre</label>
             <input type="text" value="<?php echo $row['name'] ?>"
                    class="form-control" id="name" name="name" required
                    placeholder="<?php echo $row['name'] ?>" />

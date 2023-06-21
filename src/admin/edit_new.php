@@ -62,12 +62,20 @@
 
       <form method="post" action="edit_article_post.php?from=edit_new">
 
-        <input type="hidden" name="article_id"
-               value="<?php echo $row['article_id'] ?>" />
-        <input type="hidden" name="type"
-               value="<?php echo $row['type'] ?>" />
+        <!-- Hidden fields -->
+        <input type="hidden" name="article_id" value="<?php echo $row['article_id'] ?>" />
+        <input type="hidden" name="type" value="<?php echo $row['type'] ?>" />
+        <input type="hidden" name="name" value="<?php echo $row['name'] ?>" />
+        <input type="hidden" name="content" value="<?php echo $row['content'] ?>" />
+
         <div class="form-row">
-          <div class="form-group col-md-12">
+        <div class="form-group col-md-2">
+            <label for="title">Priority</label>
+              <input type="number" value="<?php echo $row['priority'] ?>"
+                    class="form-control" id="priority" name="priority" required
+                    placeholder="<?php echo $row['priority'] ?>" />
+          </div>
+          <div class="form-group col-md-10">
             <label for="title">Title</label>
             <input type="text" value="<?php echo $row['title'] ?>"
                    class="form-control" id="title" name="title" required
@@ -83,9 +91,8 @@
         <hr />
 
         <div class="text-center">
-          <a href="/admin//index.php" class="btn btn-secondary btn-lg">Back</a>
-          <button type="submit" class="btn btn-primary btn-lg">Edit Current
-            Article</button>
+          <a href="/admin/index.php" class="btn btn-secondary btn-lg">Back</a>
+          <button type="submit" class="btn btn-primary btn-lg">Edit Current Article</button>
         </div>
       </form>
 

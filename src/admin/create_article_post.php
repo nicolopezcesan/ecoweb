@@ -6,11 +6,12 @@ if (!empty($_POST['title'])) {
   include_once '../mysql/mysql.php';
 
   $sql = 'INSERT INTO articles
-            (`name`, `title`, `subtitle`, `content`, `type`, `date`) 
+            (`name`, `title`, `subtitle`, `priority`, `content`, `type`, `date`) 
           VALUES
             ("'.strip_tags(addslashes($_POST['name'])).'", 
               "'.strip_tags(addslashes($_POST['title'])).'", 
               "'.strip_tags(addslashes($_POST['subtitle'])).'", 
+              "'.strip_tags(addslashes($_POST['priority'])).'", 
               "'.addslashes($_POST['content']).'", 
               '.$_POST['type'].',
               now()
