@@ -5,58 +5,56 @@
       <hr class="line-below" />
     </div>
     <div class="container container-novedades">
-      <div class="row justify-content-center">
+      <div class="row justify-content">
 
 
         <?php
 
-      if (isset($article_data) && count($article_data) > 0) {
-        
-        for($i = 0; $i < count($article_data); $i++) {
+        if (isset($article_data) && count($article_data) > 0) {
 
-          $sql = 'SELECT link FROM images WHERE article = "'.$article_data[$i]['article_id'].'" LIMIT 0,1;';
-          $result = $conn->query($sql);
+          for ($i = 0; $i < count($article_data); $i++) {
 
-          if ($result->num_rows > 0) {
-            $article_image = $result->fetch_assoc();
-          }
+            $sql = 'SELECT link FROM images WHERE article = "' . $article_data[$i]['article_id'] . '" LIMIT 0,1;';
+            $result = $conn->query($sql);
 
-    ?>
-        <div class="col-sm-<?php echo $i % 3 ? "6" : "12" ?>">
-          <div class="img-bg main-image"
-               style="background-image: url('/uploads/<?php echo $article_image['link'] ?>')">
-            <div class="hover-img">
-              <div class="image-content-novedades">
-                <h3><?php echo $article_data[$i]['name'] ?></h3>
-                <h2>
-                  <?php echo $article_data[$i]['title'] ?>
-                </h2>
-                <p>
-                  <?php echo $article_data[$i]['subtitle'] ?>
-                </p>
-                <a href="novedades-detail.php?id=<?php echo $article_data[$i]['article_id'] ?>"
-                   class="btn btn-secondary <?php echo $i % 3 ? "btn-sm" : "btn-lg"?>">MAS
-                  INFO</a>
+            if ($result->num_rows > 0) {
+              $article_image = $result->fetch_assoc();
+            }
+
+        ?>
+            <?php
+            $isLastElement = ($i !== count($article_data) - 1);
+            $lgSize = ($i % 3) && $isLastElement ? "6" : "12";
+            ?>
+            <div class="col-sm-12 col-md-12 col-lg-<?php echo $lgSize ?>">
+              <div class="img-bg main-image" style="background-image: url('/uploads/<?php echo $article_image['link'] ?>')">
+                <div class="hover-img">
+                  <div class="image-content-novedades">
+                    <h3><?php echo $article_data[$i]['name'] ?></h3>
+                    <h2>
+                      <?php echo $article_data[$i]['title'] ?>
+                    </h2>
+                    <p>
+                      <?php echo $article_data[$i]['subtitle'] ?>
+                    </p>
+                    <a href="novedades-detail.php?id=<?php echo $article_data[$i]['article_id'] ?>" class="btn btn-secondary <?php echo $i % 3 ? "btn-sm" : "btn-lg" ?>">MAS
+                      INFO</a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
         <?php
+          }
         }
-      }
-    ?>
-
+        ?>
       </div>
-
-      <div class="row">
-        <div class="col-sm-12">
-          <a href="/construccion" class="btn btn-primary btn-lg">
-            Todos Los Proyectos <i class="bi bi-chevron-right"></i>
-          </a>
-        </div>
+    </div>
+    <div class="construction-btn-container">
+      <div class="col-sm-12">
+        <a href="/construccion" class="btn btn-primary btn-lg construction-btn">
+          Todos Los Proyectos <i class="bi bi-chevron-right"></i>
+        </a>
       </div>
-
-
     </div>
   </div>
 </section>

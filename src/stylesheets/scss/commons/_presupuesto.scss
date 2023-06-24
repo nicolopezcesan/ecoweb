@@ -55,7 +55,9 @@
     position: fixed;
     right: 0;
     width: 100%;
-    bottom: calc(40% - 150px);
+    // bottom: calc(40% - 150px);
+    z-index: 2;
+    top: 90px;
 
     input,
     textarea,
@@ -76,10 +78,6 @@
       background-position-y: 60%;
     }
 
-    textarea {
-      height: 100px;
-    }
-
     h4,
     label {
       text-transform: uppercase;
@@ -98,6 +96,13 @@
     .send-button {
       margin-top: 32px;
       background-color: $brand-primary;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .presupuesto-box {
+      max-height: 85%;
+      overflow: auto;
     }
   }
 }

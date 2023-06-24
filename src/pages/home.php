@@ -32,7 +32,7 @@
     <?php include "includes/home/carousel.php"; ?>
 
     <div class="row main-title">
-      <div class="col-sm-6 col-10">
+      <div class="col-sm-9 col-10">
         <h3>Construcción Modular</h3>
         <h2>
           EQUILIBRIO PERFECTO ENTRE<br />
@@ -41,7 +41,7 @@
           AGILIDAD Y ECONOMÍA.
         </h2>
       </div>
-      <div class="col-sm-6 col-2 label">
+      <div class="col-sm-3 col-2 label">
         <img src="/assets/images/label.svg"
              alt="26 Años - Construccion Modular y Alquileres"
              class="label-home" />

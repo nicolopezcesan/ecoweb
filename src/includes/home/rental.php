@@ -20,8 +20,8 @@
       <div class="col-sm-10 col-12">
         <div class="row">
           <?php foreach ($rentals as $item) { ?>
-
-          <div class="col-sm-3 col-12">
+          
+          <div class="col-sm-12 col-md-6 col-lg-6 pt-3">
             <div class="img-bg">
               <img src="<?php echo $item->image; ?>" class="d-block"
                    alt="<?php echo $item->name; ?>">

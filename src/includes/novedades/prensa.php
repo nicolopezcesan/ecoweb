@@ -1,4 +1,4 @@
-<section class="prensa">
+<section id="prensa" class="prensa">
   <div class="banner-title">
     <h2>PRENSA</h2>
     <hr class="line-below" />

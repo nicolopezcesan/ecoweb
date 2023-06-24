@@ -11,7 +11,7 @@ $selItem = function ($itemName) use ($section) {
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-3 d-flex justify-content-between">
+        <div class="col d-flex justify-content-between">
           <a class="navbar-brand" href="/">
             <img src="<?php echo $includeLogo; ?>" alt="Ecosan" class="logo" />
           </a>
@@ -20,7 +20,7 @@ $selItem = function ($itemName) use ($section) {
 
           </button>
         </div>
-        <div class="col-sm-9 d-flex menu-list">
+        <div class="col-lg-9 d-flex menu-list">
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="menu-links navbar-nav <?php echo str_replace('/', '', $section) ?>">
               <li><a href="/" <?php echo $selItem('index'); ?>>Home</a></li>

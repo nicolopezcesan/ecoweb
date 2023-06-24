@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-sm-12 contact">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-sm-6 col-md-4">
             <ul>
               <li>
                 <img src="/assets/images/ecosan-logo-footer.svg" alt="Ecosan"
@@ -25,34 +25,20 @@
               </li>
             </ul>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-6 col-md-4">
             <ul>
-              <li>
-                <h2>Institucional</h2>
-              </li>
+              <li><h2>Institucional</h2></li>
               <li><a href="/nosotros">Nosotros</a></li>
               <li><a href="/construccion">Catalogo</a></li>
-              <li><a href="/novedades">Prensa</a></li>
+              <li><a href="/novedades#prensa">Prensa</a></li>
               <li><a
                    href="http://ecosan.com.ar/Politica-de-Calidad-y-Medioambiente.pdf">Política
                   de Calidad y
                   Medioambiente</a></li>
             </ul>
           </div>
-<!-- REDES SOCIALES------------------------------------------------------------------>
 
-        <!-- <div class="col-xs-4 col-md-2">
-				<h4>redes sociales</h4>
-				<a href="https://www.facebook.com/ecosanargentina/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-				<a href="https://www.youtube.com/user/ECOSANargentina" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-				<a href="https://www.instagram.com/ecosansa/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				<a href="https://twitter.com/ecosansa" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			  </div> -->
-
-<!-- ------------------------------------------------------------------>
-
-
-          <div class="col-sm-6 iso-container">
+          <div class="col-sm-8 col-md-4 iso-container">
             <img src="/assets/images/cucardas.svg" alt="ISO" class="iso" />
           </div>
         
