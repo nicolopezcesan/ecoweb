@@ -245,6 +245,19 @@ body footer .copyright .whatsapp {
   width: 50px;
   bottom: 24px;
 }
+body footer .social-networks-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 12px;
+}
+body footer .social-networks-container img {
+  width: 32px;
+  cursor: pointer;
+}
+body footer .social-networks-container img:hover {
+  width: 34px;
+}
 @media only screen and (max-width: 576px) {
   body footer .iso-container {
     margin-top: 16px;

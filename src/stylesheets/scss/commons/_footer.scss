@@ -110,6 +110,23 @@ footer {
       bottom: 24px;
     }
   }
+
+  .social-networks-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 12px;
+    
+    img {
+      width: 32px;
+      cursor: pointer;
+
+      &:hover {
+        width: 34px;
+      }
+    }
+  }
+
   @media only screen and (max-width: 576px) {
     .iso-container {
       margin-top: 16px;
