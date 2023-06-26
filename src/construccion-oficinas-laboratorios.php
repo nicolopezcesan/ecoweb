@@ -6,6 +6,7 @@
 <body>
   <?php 
     include "includes/common/menu.php";
+    include "includes/common/submenu-construccion.php";
     include "pages/construccion-6-laboratorios-oficinas-detail.php";
     include "includes/common/footer.php";
   ?>
