@@ -13,7 +13,7 @@
           <div class="row">
 
             <?php foreach ($constructions as $item) { ?>
-            <div class="col-4 arq-images carousel">
+            <div class="col-sm-12 col-md-6 col-lg-4 arq-images carousel">
               <img src="<?php echo $item->image; ?>">
               <div class="hover-img">
                 <h5><?php echo $item->name; ?></h5>

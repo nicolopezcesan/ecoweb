@@ -8,7 +8,7 @@
             <h3 class="asesor-title">Asesor comercial</h3>
             <h3 class="asesor-subtitle">Atención personalizada en todos nuestros
               canales.</h3>
-            <a href="/contacto" class="btn btn-primary btn-lg">
+            <a href="/contacto#contact-anchor" class="btn btn-primary btn-lg">
               Comunicate ahora<i class="bi bi-chevron-right"></i>
             </a>
           </div>

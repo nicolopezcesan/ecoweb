@@ -40,8 +40,9 @@
     }
   }
   img {
-    width: 100%;
-    height: 260px;
+    object-fit: cover;
+    min-height: 160px;
+    max-height: 200px;
   }
 
   .button-noticias {

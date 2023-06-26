@@ -1,4 +1,4 @@
-<div id="carouselNews" class="carousel carousel-home slide" data-bs-interval="3000" data-bs-ride="carousel" data-bs-ride="carouselNews">
+<div id="carouselNews" class="carousel carousel-home slide" data-bs-interval="3000" data-bs-ride="carousel">
 
   <div class="carousel-indicators">
     <?php

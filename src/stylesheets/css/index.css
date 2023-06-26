@@ -1257,11 +1257,9 @@ body .home .carousel .control-buttons .control-icon {
   width: 4rem;
   height: 4rem;
   background-color: rgba(0, 0, 0, 0.5);
-  width: 60%;
   height: 150%;
   padding-top: 50%;
   border-radius: 5px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
 }
 body .home .carousel .control-buttons:hover .control-icon {
   color: #00a89c;
@@ -1497,6 +1495,19 @@ body .construccion .construccion-container {
 body .construccion .video-container {
   width: 100%;
   height: 720px;
+}
+body .construccion .carousel .control-buttons {
+  opacity: 1;
+}
+body .construccion .carousel .control-buttons .control-icon {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 30%;
+  padding-top: 50%;
+  border-radius: 5px;
+}
+body .construccion .carousel .control-buttons:hover .control-icon {
+  color: #00a89c;
+  filter: brightness(0.5) sepia(1) hue-rotate(135deg) saturate(2);
 }
 @media only screen and (max-device-width: 480px) {
   body .construccion .construccion-container {
@@ -5756,8 +5767,9 @@ body .novedades .noticias .img-bg:hover img {
   -o-transition: opacity 0.4s ease-out;
 }
 body .novedades .noticias img {
-  width: 100%;
-  height: 260px;
+  object-fit: cover;
+  min-height: 160px;
+  max-height: 200px;
 }
 body .novedades .noticias .button-noticias {
   display: flex;

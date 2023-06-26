@@ -1,3 +1,26 @@
+<script>
+  $(document).ready(function () {
+    let isHide = true;
+    $("#info-box").fadeOut();
+    $("#info-button").click(() => {
+      if (isHide) {
+        $("#info-box").fadeIn();
+        $("#arrow-icon").addClass("open");
+      } else {
+        $("#info-box").fadeOut();
+        $("#arrow-icon").removeClass("open");
+      }
+      isHide = !isHide;
+    });
+  });
+</script>
+
+<style>
+  .open::before {
+    transform: rotate(90deg);
+  }
+</style>
+
 <section class="certification">
   <div class="container">
     <div class="row justify-content-center">
@@ -22,16 +45,15 @@
             <div class="col-sm-6">
               <img src="/assets/images/logos-iso.svg" class="logos-iso">
             </div>
-            <button type="button"
-                    class="btn btn-primary btn-lg">
-              POLITICA DE CALIDAD Y MEDIOAMBIENTE<i
-                 class="bi bi-chevron-right"></i>
+            <button id="info-button" type="button" class="btn btn-primary btn-lg">
+              POLITICA DE CALIDAD Y MEDIOAMBIENTE<i id="arrow-icon" style="margin-left: 20px;" class="bi bi-chevron-right"></i>
             </button>
           </div>
         </div>
       </div>
     </div>
-    <div class="row justify-content-center">
+
+    <div id="info-box" class="row justify-content-center">
       <div class="col-sm-10">
         <div class="row">
           <div class="col-sm-12 legales">
@@ -112,19 +134,16 @@
 
             <h3>NUESTROS VALORES:</h3>
 
-            <p>Vocación de Servicios, para lograr la satisfacción de
-              nuestros Clientes.</p>
-            <p>Responsabilidad y Respeto, para cumplir los compromisos
-              asumidos con nuestros Clientes y Proveedores.</p>
-            <p>Seriedad, para sostener víncpos perdurables y de mutuo
-              beneficio.</p>
-            <p>Rapidez de Respuesta, para solucionar problemas detectados
-              por el Cliente o por Ecosan.</p>
+            <p>Vocación de Servicios, para lograr la satisfacción de nuestros Clientes.</p>
+            <p>Responsabilidad y Respeto, para cumplir los compromisos asumidos con nuestros Clientes y Proveedores.</p>
+            <p>Seriedad, para sostener víncpos perdurables y de mutuo beneficio.</p>
+            <p>Rapidez de Respuesta, para solucionar problemas detectados por el Cliente o por Ecosan.</p>
 
           </div>
         </div>
       </div>
     </div>
+
     <div class="row">
       <div class="col-sm-12 van-container">
       </div>

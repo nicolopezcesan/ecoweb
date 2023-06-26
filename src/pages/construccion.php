@@ -1,6 +1,4 @@
 <div class="page construccion">
-
-
   <?php include "includes/construccion-detail/slide-carousel.php"; ?>
   <?php include "includes/construccion/arquitectura-y-construccion.php"; ?>
   <?php include "includes/construccion/grid-images.php"; ?>

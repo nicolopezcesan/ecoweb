@@ -14,7 +14,8 @@
       </div>
     </div>
   </div>
-  <div class="contact-form">
+
+  <div id="contact-anchor" class="contact-form">
     <div class="grey-bg">
       <div class="banner-title-form">
         <h2>COMPLETE AHORA EL FORMULARIO</h2>

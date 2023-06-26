@@ -7,6 +7,24 @@
   height: 720px;
 }
 
+.carousel .control-buttons {
+  opacity: 1;
+
+  .control-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 30%;
+    padding-top: 50%;
+    border-radius: 5px;
+  }
+
+  &:hover {
+    .control-icon {
+      color: $brand-primary;
+      filter: brightness(0.5) sepia(1) hue-rotate(135deg) saturate(2);
+    }
+  }
+}
+
 @media only screen and (max-device-width: 480px) {
   .construccion-container {
     background-color: black;

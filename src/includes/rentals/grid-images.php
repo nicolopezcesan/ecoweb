@@ -18,7 +18,7 @@
 
             <?php foreach ($rentals as $item) { ?>
 
-            <div class="col-sm-4 col-6 arq-images carousel">
+            <div class="col-sm-12 col-md-6 col-lg-4 arq-images carousel">
               <img src="<?php echo $item->image; ?>" class="d-block"
                    alt="<?php echo $item->name; ?>">
               <div class="hover-img">
