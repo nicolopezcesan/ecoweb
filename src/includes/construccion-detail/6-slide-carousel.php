@@ -7,6 +7,6 @@ $carrousel_images = [
   "/assets/images/contruccion-productos/Construccion-6-Laboratorios-Oficinas-5.jpg",
 ];
 
-include_once '../common/carousel-main.php';
+include_once 'includes/common/carousel-main.php';
 
 ?>
