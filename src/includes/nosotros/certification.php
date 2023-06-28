@@ -73,8 +73,7 @@
               Servicios de Calidad.
             </p>
 
-            <h3>EN VIRTUD DE ESA MISIÓN TODOS LOS
-              INTEGRANTES DE ECOSAN S.AASUMIMOS ELCOMPROMISO DE:</h3>
+            <h3>EN VIRTUD DE ESA MISIÓN TODOS LOS INTEGRANTES DE ECOSAN S.A ASUMIMOS EL COMPROMISO DE:</h3>
 
             <p>Entender el negocio del Cliente para identificar y
               satisfacer tanto sus expectativas

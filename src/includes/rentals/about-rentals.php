@@ -14,7 +14,7 @@
 
           <div class="col-sm-4 item">
             <img src="/assets/images/rental-icon-2.svg" alt="Entrega" />
-            <h4 class="title-icon">Enrtega<br>inmediata</h4>
+            <h4 class="title-icon">Entrega<br>inmediata</h4>
             <hr />
             <p>Entregas en el día o pactadas en la fecha deseada por el
               cliente.</p>

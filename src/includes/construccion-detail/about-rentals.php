@@ -26,7 +26,7 @@
                 <img src="/assets/images/rental-icon-2.svg"
                      alt="Entrega" />
                 <h4 class="title-icon">
-                  Enrtega<br />
+                  Entrega<br />
                   inmediata
                 </h4>
                 <hr />
