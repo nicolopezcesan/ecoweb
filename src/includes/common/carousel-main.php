@@ -5,9 +5,7 @@
 
   .carousel .control-buttons .control-icon {
     background-color: rgba(0, 0, 0, 0.4);
-    width: 30%;
-    padding-top: 50%;
-    border-radius: 5px;
+    padding: 20%;
   }
 
   .carousel .control-buttons .control-icon:hover {

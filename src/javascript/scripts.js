@@ -2,7 +2,7 @@ let items = document.querySelectorAll(".clients-carousel .carousel .carousel-ite
 
 // manage client carousel
 items.forEach((el) => {
-  const minPerSlide = 6;
+  const minPerSlide = (window.innerWidth < 420) ? 2 : 6;
   let next = el.nextElementSibling;
   for (var i = 1; i < minPerSlide; i++) {
     if (!next) {

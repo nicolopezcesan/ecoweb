@@ -496,6 +496,9 @@ body .presupuesto .presupuesto-box .send-button {
   body .presupuesto .presupuesto-box {
     max-height: 85%;
     overflow: auto;
+    top: 70px;
+    width: 90vw;
+    right: auto;
   }
 }
 body .home .video-container {
@@ -1271,8 +1274,7 @@ body .home .carousel .control-buttons .control-icon {
   height: 4rem;
   background-color: rgba(0, 0, 0, 0.5);
   height: 150%;
-  padding-top: 50%;
-  border-radius: 5px;
+  padding: 20%;
 }
 body .home .carousel .control-buttons:hover .control-icon {
   color: #00a89c;
@@ -1346,6 +1348,11 @@ body .home .clients-carousel .container .img-item {
 }
 body .home .clients-carousel .container .img-item:hover {
   filter: grayscale(0%);
+}
+@media screen and (max-width: 420px) {
+  body .home .clients-carousel .carousel .carousel-item {
+    height: 75px;
+  }
 }
 @font-face {
   font-family: "Avenir";
@@ -1515,8 +1522,7 @@ body .construccion .carousel .control-buttons {
 body .construccion .carousel .control-buttons .control-icon {
   background-color: rgba(0, 0, 0, 0.3);
   width: 30%;
-  padding-top: 50%;
-  border-radius: 5px;
+  padding: 20%;
 }
 body .construccion .carousel .control-buttons:hover .control-icon {
   color: #00a89c;
@@ -1871,6 +1877,11 @@ body .construccion .clients-carousel .container .img-item {
 }
 body .construccion .clients-carousel .container .img-item:hover {
   filter: grayscale(0%);
+}
+@media screen and (max-width: 420px) {
+  body .construccion .clients-carousel .carousel .carousel-item {
+    height: 75px;
+  }
 }
 @font-face {
   font-family: "Avenir";
@@ -2474,6 +2485,11 @@ body .construccion-detail .clients-carousel .container .img-item {
 }
 body .construccion-detail .clients-carousel .container .img-item:hover {
   filter: grayscale(0%);
+}
+@media screen and (max-width: 420px) {
+  body .construccion-detail .clients-carousel .carousel .carousel-item {
+    height: 75px;
+  }
 }
 @font-face {
   font-family: "Avenir";
@@ -3129,6 +3145,11 @@ body .rentals .clients-carousel .container .img-item {
 }
 body .rentals .clients-carousel .container .img-item:hover {
   filter: grayscale(0%);
+}
+@media screen and (max-width: 420px) {
+  body .rentals .clients-carousel .carousel .carousel-item {
+    height: 75px;
+  }
 }
 @font-face {
   font-family: "Avenir";
@@ -4032,6 +4053,11 @@ body .rentals-detail .clients-carousel .container .img-item {
 body .rentals-detail .clients-carousel .container .img-item:hover {
   filter: grayscale(0%);
 }
+@media screen and (max-width: 420px) {
+  body .rentals-detail .clients-carousel .carousel .carousel-item {
+    height: 75px;
+  }
+}
 body .nosotros .nosotros {
   margin-top: 90px;
 }
@@ -4598,6 +4624,11 @@ body .nosotros .clients-carousel .container .img-item {
 body .nosotros .clients-carousel .container .img-item:hover {
   filter: grayscale(0%);
 }
+@media screen and (max-width: 420px) {
+  body .nosotros .clients-carousel .carousel .carousel-item {
+    height: 75px;
+  }
+}
 body .nosotros a.rentals-more {
   display: none;
 }
@@ -4886,6 +4917,11 @@ body .contacto .clients-carousel .container .img-item {
 }
 body .contacto .clients-carousel .container .img-item:hover {
   filter: grayscale(0%);
+}
+@media screen and (max-width: 420px) {
+  body .contacto .clients-carousel .carousel .carousel-item {
+    height: 75px;
+  }
 }
 @font-face {
   font-family: "Avenir";
@@ -5602,6 +5638,11 @@ body .novedades .clients-carousel .container .img-item {
 body .novedades .clients-carousel .container .img-item:hover {
   filter: grayscale(0%);
 }
+@media screen and (max-width: 420px) {
+  body .novedades .clients-carousel .carousel .carousel-item {
+    height: 75px;
+  }
+}
 @font-face {
   font-family: "Avenir";
   src: url("/assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("/assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("/assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
@@ -6060,6 +6101,11 @@ body .novedades-detail .clients-carousel .container .img-item {
 }
 body .novedades-detail .clients-carousel .container .img-item:hover {
   filter: grayscale(0%);
+}
+@media screen and (max-width: 420px) {
+  body .novedades-detail .clients-carousel .carousel .carousel-item {
+    height: 75px;
+  }
 }
 @font-face {
   font-family: "Avenir";
