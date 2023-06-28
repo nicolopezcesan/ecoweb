@@ -496,6 +496,9 @@ body .presupuesto .presupuesto-box .send-button {
   body .presupuesto .presupuesto-box {
     max-height: 85%;
     overflow: auto;
+    top: 70px;
+    width: 90vw;
+    right: auto;
   }
 }
 body .home .video-container {
@@ -1271,8 +1274,7 @@ body .home .carousel .control-buttons .control-icon {
   height: 4rem;
   background-color: rgba(0, 0, 0, 0.5);
   height: 150%;
-  padding-top: 50%;
-  border-radius: 5px;
+  padding: 20%;
 }
 body .home .carousel .control-buttons:hover .control-icon {
   color: #00a89c;
@@ -1520,8 +1522,7 @@ body .construccion .carousel .control-buttons {
 body .construccion .carousel .control-buttons .control-icon {
   background-color: rgba(0, 0, 0, 0.3);
   width: 30%;
-  padding-top: 50%;
-  border-radius: 5px;
+  padding: 20%;
 }
 body .construccion .carousel .control-buttons:hover .control-icon {
   color: #00a89c;

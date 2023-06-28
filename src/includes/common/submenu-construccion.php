@@ -1,24 +1,43 @@
 <style>
   .navbar .custom-menu {
-    height: auto  ;
+    height: auto;
     padding: 5px;
-    max-height: 100px;
+    background: rgb(0 0 0 / 90%);
   }
 
   #custom-submenu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 6%;
+    column-gap: 5%;
+    justify-content: space-between;
   }
 
   #custom-submenu a {
     font-size: 12px;
   }
+
   #custom-submenu a:after {
     right: -30px;
   }
-  
+
+  .menu li {
+    margin: -7px;
+  }
+
+  /* @media (max-with: 992px) {
+    .navbar .custom-menu {
+      height: auto;
+      padding: 5px;
+      background: rgb(5 140 14 / 90%);
+    }
+
+    #custom-submenu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  } */
 </style>
 
 <?php
