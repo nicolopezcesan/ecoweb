@@ -18,7 +18,6 @@ $clients = [
   "moto-gp.jpg",
   "policia-federal.jpg",
   "policia-metropolitana.jpg",
-  "presidencia-de-la-nacion.jpg",
   "siderar.jpg",
   "techint.jpg",
   "toyota.jpg",
@@ -39,7 +38,7 @@ $clients = [
           <?php for ($i = 0; $i < count($clients); $i++) { ?>
 
             <div class="carousel-item <?php echo $i == 0 ? "active" : ""; ?>">
-              <div class="col-6 col-sm-2">
+              <div class="col-xs-2 col-sm-2 col-6">
                 <div class="card-img">
                   <img src="/assets/images/clients/<?php echo $clients[$i]; ?>" class="img-fluid img-item">
                 </div>

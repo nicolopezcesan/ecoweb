@@ -79,4 +79,9 @@
   }
 }
 
-// filter: grayscale(100%)
+@media screen and (max-width: 420px) {
+  .clients-carousel .carousel .carousel-item {
+    height: 75px;
+  }
+}
+
