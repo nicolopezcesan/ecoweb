@@ -1,3 +1,16 @@
+<script>
+  $(() => {
+    $(window).scroll(() => {
+      const scrollPosition = $(window).scrollTop();
+      if (scrollPosition > 80) {
+        $("#mainMenu").fadeOut();
+      } else if (scrollPosition === 0) {
+        $("#mainMenu").fadeIn();
+      }
+    });
+  });
+</script>
+
 <style>
   .navbar .custom-menu {
     height: auto;
@@ -5,39 +18,22 @@
     background: rgb(0 0 0 / 90%);
   }
 
-  #custom-submenu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 5%;
-    justify-content: space-between;
-  }
-
   #custom-submenu a {
-    font-size: 12px;
+    font-size: 11px;
+    padding: 10px 8px;
   }
 
-  #custom-submenu a:after {
-    right: -30px;
+  #custom-submenu li {
+    padding: 0 10px;
   }
 
-  .menu li {
-    margin: -7px;
+  body .menu #custom-submenu li:after {
+    position: unset;
   }
 
-  /* @media (max-with: 992px) {
-    .navbar .custom-menu {
-      height: auto;
-      padding: 5px;
-      background: rgb(5 140 14 / 90%);
-    }
-
-    #custom-submenu {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  } */
+  .menu .menu-links li a:after {
+    right: 20px;
+  }
 </style>
 
 <?php

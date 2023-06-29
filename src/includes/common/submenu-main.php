@@ -9,8 +9,8 @@ $selItem = function ($itemName) use ($section) {
 
 <nav class="navbar">
   <div class="menu custom-menu">
-    <div class="container font-size line-height text-light">
-      <ul id="custom-submenu" class="menu-links navbar-nav">
+    <div class="container p-0">
+      <ul id="custom-submenu" class="menu-links navbar-nav d-flex flex-wrap flex-row justify-content-sm-start justify-content-xs-between justify-content-between">
 
         <? foreach ($submenuArray as $value) { ?>
           <li class="nav-item">
