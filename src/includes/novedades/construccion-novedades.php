@@ -27,12 +27,8 @@
                 <div class="hover-img">
                   <div class="image-content-novedades">
                     <h3><?php echo $article_data[$i]['name'] ?></h3>
-                    <h2>
-                      <?php echo $article_data[$i]['title'] ?>
-                    </h2>
-                    <p>
-                      <?php echo $article_data[$i]['subtitle'] ?>
-                    </p>
+                    <h2><?php echo $article_data[$i]['title'] ?></h2>
+                    <p><?php echo $article_data[$i]['subtitle'] ?></p>
                     <a href="novedades-detail.php?id=<?php echo $article_data[$i]['article_id'] ?>" class="btn btn-secondary <?php echo $i % 3 ? "btn-sm" : "btn-lg" ?>">MAS
                       INFO</a>
                   </div>

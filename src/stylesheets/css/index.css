@@ -1292,7 +1292,7 @@ body .home .carousel .control-buttons .control-icon {
   width: 2rem;
   height: 2rem;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 20%;
+  padding: 15%;
 }
 body .home .carousel .control-buttons:hover .control-icon {
   color: #00a89c;
@@ -5896,7 +5896,7 @@ body .novedades-detail .carousel .control-buttons .control-icon {
   width: 2rem;
   height: 2rem;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 20%;
+  padding: 15%;
 }
 body .novedades-detail .carousel .control-buttons:hover .control-icon {
   color: #00a89c;
