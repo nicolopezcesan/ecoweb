@@ -7,9 +7,7 @@
     <div class="container container-novedades">
       <div class="row justify-content">
 
-
         <?php
-
         if (isset($article_data) && count($article_data) > 0) {
 
           for ($i = 0; $i < count($article_data); $i++) {
@@ -21,11 +19,9 @@
               $article_image = $result->fetch_assoc();
             }
 
-        ?>
-            <?php
             $isLastElement = ($i !== count($article_data) - 1);
             $lgSize = ($i % 3) && $isLastElement ? "6" : "12";
-            ?>
+        ?>
             <div class="col-sm-12 col-md-12 col-lg-<?php echo $lgSize ?>">
               <div class="img-bg main-image" style="background-image: url('/uploads/<?php echo $article_image['link'] ?>')">
                 <div class="hover-img">
