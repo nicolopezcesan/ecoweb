@@ -259,12 +259,18 @@ body footer .social-networks-container img:hover {
   transform: scale(1.1);
 }
 @media only screen and (max-width: 576px) {
+  body footer .social-networks-container {
+    justify-content: center;
+  }
   body footer .iso-container {
     margin-top: 16px;
     justify-content: initial;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  body footer .social-networks-container {
+    justify-content: center;
+  }
   body footer .iso-container {
     margin-top: 20px;
   }
@@ -286,7 +292,7 @@ body footer .social-networks-container img:hover {
   }
   body footer .iso-container {
     margin-top: 16px;
-    justify-content: initial;
+    justify-content: center;
     margin-top: 20px;
   }
   body footer .copyright .whatsapp {
@@ -900,6 +906,35 @@ body .home .construccion-novedades .construction-btn-container {
     top: 50px;
   }
 }
+@media screen and (max-width: 768px) {
+  body .home .construccion-novedades .image-content-novedades h2 {
+    font-size: 100%;
+  }
+  body .home .construccion-novedades .image-content-novedades h3 {
+    font-size: 80% !important;
+    line-height: 30px;
+  }
+  body .home .construccion-novedades .image-content-novedades p {
+    font-size: 60% !important;
+    line-height: 20px !important;
+  }
+}
+@media screen and (max-width: 770px) {
+  body .home .construccion-novedades .banner-title h2 {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  body .home .construccion-novedades .image-content-novedades h2 {
+    font-size: 24px;
+  }
+  body .home .construccion-novedades .image-content-novedades h3 {
+    font-size: 20px;
+  }
+  body .home .construccion-novedades .image-content-novedades p {
+    font-size: 20%;
+  }
+}
 @media only screen and (max-device-width: 480px) {
   body .home .construccion-novedades {
     padding-bottom: 32px;
@@ -944,22 +979,6 @@ body .home .construccion-novedades .construction-btn-container {
   body .home .construccion-novedades .main-image .image-content p,
   body .home .construccion-novedades .main-image .image-content-novedades p {
     display: none;
-  }
-}
-@media screen and (max-width: 770px) {
-  body .home .construccion-novedades .banner-title h2 {
-    font-size: 26px;
-  }
-}
-@media screen and (max-width: 1300px) {
-  body .home .construccion-novedades .image-content-novedades h1 {
-    font-size: 90%;
-  }
-  body .home .construccion-novedades .image-content-novedades h2 {
-    font-size: 70%;
-  }
-  body .home .construccion-novedades .image-content-novedades p {
-    font-size: 20%;
   }
 }
 body .home .carousel-home .carousel-item {
@@ -1270,11 +1289,10 @@ body .home .carousel .control-buttons {
   opacity: 1;
 }
 body .home .carousel .control-buttons .control-icon {
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 150%;
-  padding: 20%;
+  padding: 15%;
 }
 body .home .carousel .control-buttons:hover .control-icon {
   color: #00a89c;
@@ -1521,8 +1539,7 @@ body .construccion .carousel .control-buttons {
 }
 body .construccion .carousel .control-buttons .control-icon {
   background-color: rgba(0, 0, 0, 0.3);
-  width: 30%;
-  padding: 20%;
+  padding: 15%;
 }
 body .construccion .carousel .control-buttons:hover .control-icon {
   color: #00a89c;
@@ -5402,6 +5419,35 @@ body .novedades .construccion-novedades .construction-btn-container {
     top: 50px;
   }
 }
+@media screen and (max-width: 768px) {
+  body .novedades .construccion-novedades .image-content-novedades h2 {
+    font-size: 100%;
+  }
+  body .novedades .construccion-novedades .image-content-novedades h3 {
+    font-size: 80% !important;
+    line-height: 30px;
+  }
+  body .novedades .construccion-novedades .image-content-novedades p {
+    font-size: 60% !important;
+    line-height: 20px !important;
+  }
+}
+@media screen and (max-width: 770px) {
+  body .novedades .construccion-novedades .banner-title h2 {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  body .novedades .construccion-novedades .image-content-novedades h2 {
+    font-size: 24px;
+  }
+  body .novedades .construccion-novedades .image-content-novedades h3 {
+    font-size: 20px;
+  }
+  body .novedades .construccion-novedades .image-content-novedades p {
+    font-size: 20%;
+  }
+}
 @media only screen and (max-device-width: 480px) {
   body .novedades .construccion-novedades {
     padding-bottom: 32px;
@@ -5446,22 +5492,6 @@ body .novedades .construccion-novedades .construction-btn-container {
   body .novedades .construccion-novedades .main-image .image-content p,
   body .novedades .construccion-novedades .main-image .image-content-novedades p {
     display: none;
-  }
-}
-@media screen and (max-width: 770px) {
-  body .novedades .construccion-novedades .banner-title h2 {
-    font-size: 26px;
-  }
-}
-@media screen and (max-width: 1300px) {
-  body .novedades .construccion-novedades .image-content-novedades h1 {
-    font-size: 90%;
-  }
-  body .novedades .construccion-novedades .image-content-novedades h2 {
-    font-size: 70%;
-  }
-  body .novedades .construccion-novedades .image-content-novedades p {
-    font-size: 20%;
   }
 }
 @font-face {
@@ -5851,6 +5881,11 @@ body .novedades-detail .carousel .carousel-item-content {
   align-items: center;
   height: 100%;
 }
+body .novedades-detail .carousel .carousel-item-content img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 body .novedades-detail .carousel .control-buttons {
   opacity: 1;
   bottom: 10%;
@@ -5858,8 +5893,10 @@ body .novedades-detail .carousel .control-buttons {
   height: 50px;
 }
 body .novedades-detail .carousel .control-buttons .control-icon {
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15%;
 }
 body .novedades-detail .carousel .control-buttons:hover .control-icon {
   color: #00a89c;
@@ -5869,7 +5906,7 @@ body .novedades-detail .carousel .carousel-title-container {
   position: absolute;
   top: 40%;
   left: 0;
-  z-index: 99;
+  z-index: 1;
   background: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 24px 32px 24px 64px;
@@ -5885,6 +5922,29 @@ body .novedades-detail .carousel .carousel-title-container h3 {
   margin: 0;
   padding: 0;
   line-height: 32px;
+}
+@media only screen and (min-width: 481px) and (max-width: 770px) {
+  body .novedades-detail .carousel .carousel-title-container {
+    max-width: 100%;
+  }
+  body .novedades-detail .carousel .carousel-title-container h4 {
+    font-size: 20px;
+  }
+  body .novedades-detail .carousel .carousel-title-container h3 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body .novedades-detail .carousel .carousel-title-container {
+    max-width: 100%;
+    padding: 10px 5% 5% 10%;
+  }
+  body .novedades-detail .carousel .carousel-title-container h4 {
+    font-size: 15px;
+  }
+  body .novedades-detail .carousel .carousel-title-container h3 {
+    font-size: 10px;
+  }
 }
 @font-face {
   font-family: "Avenir";

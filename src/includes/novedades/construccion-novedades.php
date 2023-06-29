@@ -7,9 +7,7 @@
     <div class="container container-novedades">
       <div class="row justify-content">
 
-
         <?php
-
         if (isset($article_data) && count($article_data) > 0) {
 
           for ($i = 0; $i < count($article_data); $i++) {
@@ -21,22 +19,16 @@
               $article_image = $result->fetch_assoc();
             }
 
-        ?>
-            <?php
             $isLastElement = ($i !== count($article_data) - 1);
             $lgSize = ($i % 3) && $isLastElement ? "6" : "12";
-            ?>
+        ?>
             <div class="col-sm-12 col-md-12 col-lg-<?php echo $lgSize ?>">
               <div class="img-bg main-image" style="background-image: url('/uploads/<?php echo $article_image['link'] ?>')">
                 <div class="hover-img">
                   <div class="image-content-novedades">
                     <h3><?php echo $article_data[$i]['name'] ?></h3>
-                    <h2>
-                      <?php echo $article_data[$i]['title'] ?>
-                    </h2>
-                    <p>
-                      <?php echo $article_data[$i]['subtitle'] ?>
-                    </p>
+                    <h2><?php echo $article_data[$i]['title'] ?></h2>
+                    <p><?php echo $article_data[$i]['subtitle'] ?></p>
                     <a href="novedades-detail.php?id=<?php echo $article_data[$i]['article_id'] ?>" class="btn btn-secondary <?php echo $i % 3 ? "btn-sm" : "btn-lg" ?>">MAS
                       INFO</a>
                   </div>

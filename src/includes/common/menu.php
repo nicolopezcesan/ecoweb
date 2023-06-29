@@ -6,7 +6,7 @@ $selItem = function ($itemName) use ($section) {
 }
 ?>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav id="mainMenu" class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid menu">
 
     <div class="container">
