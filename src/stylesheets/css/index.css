@@ -1276,10 +1276,9 @@ body .home .carousel .control-buttons {
   opacity: 1;
 }
 body .home .carousel .control-buttons .control-icon {
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 150%;
   padding: 20%;
 }
 body .home .carousel .control-buttons:hover .control-icon {
@@ -1527,8 +1526,7 @@ body .construccion .carousel .control-buttons {
 }
 body .construccion .carousel .control-buttons .control-icon {
   background-color: rgba(0, 0, 0, 0.3);
-  width: 30%;
-  padding: 20%;
+  padding: 15%;
 }
 body .construccion .carousel .control-buttons:hover .control-icon {
   color: #00a89c;

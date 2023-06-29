@@ -5,7 +5,7 @@
 
   .carousel .control-buttons .control-icon {
     background-color: rgba(0, 0, 0, 0.4);
-    padding: 20%;
+    padding: 15%;
   }
 
   .carousel .control-buttons .control-icon:hover {
