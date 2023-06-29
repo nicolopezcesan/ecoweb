@@ -259,12 +259,18 @@ body footer .social-networks-container img:hover {
   transform: scale(1.1);
 }
 @media only screen and (max-width: 576px) {
+  body footer .social-networks-container {
+    justify-content: center;
+  }
   body footer .iso-container {
     margin-top: 16px;
     justify-content: initial;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  body footer .social-networks-container {
+    justify-content: center;
+  }
   body footer .iso-container {
     margin-top: 20px;
   }
@@ -286,7 +292,7 @@ body footer .social-networks-container img:hover {
   }
   body footer .iso-container {
     margin-top: 16px;
-    justify-content: initial;
+    justify-content: center;
     margin-top: 20px;
   }
   body footer .copyright .whatsapp {
