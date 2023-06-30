@@ -12,7 +12,7 @@
       <div class="container">
         <div class="row">
           <div class="row justify-content-center">
-            <div class="col-xs-6 col-lg-1 text-white">
+            <div class="col-3 col-sm-3 col-md-3 col-lg-2 text-white">
               <img class="huella-icon"
                    src="/assets/images/huella-icon.svg">
             </div>

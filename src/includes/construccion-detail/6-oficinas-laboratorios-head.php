@@ -5,7 +5,7 @@
     <h2>SISTEMA MODULAR INDUSTRIALIZADO EXTREMADAMENTE VERSÁTIL, DE UNA GRAN FLEXIBILIDAD Y CUSTOMIZACIÓN</h2>
     <h3 class="text-secondary"><strong>--------------------</strong></h3>
   </div>
-  <div class="container">
+  <div class="container mt-5">
     <div class="row justify-content-center">
       <div class="col-sm-10">
         <div class="row">
@@ -33,7 +33,7 @@
             <p>Contamos con equipos de proyecto, ingeniería, montaje, y gremios especializados en este tipo de construcción.</p><br>
             
             <!-- ICONO RAPIDEZ -->
-            <div class="col-2 container">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-1 container">
             <img class="rapidez-icon"
                  src="/assets/images/rapidez-icon.svg">
           </div>
