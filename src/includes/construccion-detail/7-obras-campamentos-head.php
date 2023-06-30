@@ -1,5 +1,5 @@
 <section class="como-llegar">
-  <div class="banner-title">
+  <div class="">
 
     <br><br><h3 class="text-secondary"><strong>OBRAS CAMPAMENTOS: MINERIA, PETROLEO, GAS Y ENERGÍA</strong></h3>
     <h2>MÁS DE 20 AÑOS DE TRAYECTORIA, PROYECTANDO, PRODUCIENDO Y MONTANDO CAMPAMENTOS DE GRAN ESCALA EN TODO EL TERRITORIO ARGENTINO</h2>

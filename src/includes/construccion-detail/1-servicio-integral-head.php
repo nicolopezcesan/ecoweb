@@ -1,5 +1,5 @@
 <section class="como-llegar">
-  <div class="banner-title">
+  <div class="">
     <br><h3 class="text-secondary"><strong>SERVICIO INTEGRAL DE PROYECTO, INGENIERÍA E INNOVACIÓN Y DESARROLLO I+D</strong></h3>
     <h2>ANTEPROYECTO, PROYECTO, INGENIRÍA Y DOCUMENTACIÓN EJECUTIVA. CONTRUCCIÓN LLAVE EN MANO.</h2>
     <h3 class="text-secondary"><strong>--------------------</strong></h3>

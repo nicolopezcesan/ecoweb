@@ -1,10 +1,10 @@
 <section class="como-llegar">
-  <div class="banner-title">
+  <div class="">
     <br><br><h3 class="text-secondary"><strong>OBRA CIVIL Y PÚBLICA</strong></h3>
     <h2>ECOSAN CUENTA CON UN ÁREA TÉCNICA, DE OBRAS Y LOGÍSTICA, ESPECIALIZADA PARA OBRAS CIVILES DE MEDIANA Y GRAN ESCALA Y PARA OBRA PÚBLICA</h2>
     <h3 class="text-secondary"><strong>--------------------</strong></h3>
   </div>
-  <div class="container mt-5">
+  <div class="container">
     <div class="row justify-content-center">
       <div class="col-sm-10">
         <div class="row">

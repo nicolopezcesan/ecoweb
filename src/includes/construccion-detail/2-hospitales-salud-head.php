@@ -1,5 +1,5 @@
 <section class="como-llegar">
-  <div class="banner-title">
+  <div class="">
 
     <br><br><h3 class="text-secondary"><strong>HOSPITALES MODULARES Y CENTROS DE SALUD</strong></h3>
     <h2>SISTEMA CONSTRUCTIVO MODULAR HOSPITALARIO DE ECOSAN</h2>

@@ -1,11 +1,11 @@
 <section class="como-llegar">
-  <div class="banner-title">
+  <div class="">
 
     <br><br><h3 class="text-secondary"><strong>OBRA INDUSTRIAL: EMPRESAS Y ENTIDADES</strong></h3>
     <h2>AMPLIA EXPERIENCIA EN CONSTRUCCIONES INDUSTRIALES Y COMERCIALES</h2>
     <h3 class="text-secondary"><strong>--------------------</strong></h3>
   </div>
-  <div class="container mt-5">
+  <div class="container">
     <div class="row justify-content-center">
       <div class="col-sm-10">
         <div class="row">

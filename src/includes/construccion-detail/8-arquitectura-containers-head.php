@@ -1,5 +1,5 @@
 <section class="como-llegar">
-  <div class="banner-title">
+  <div class="">
 
     <br><br><h3 class="text-secondary"><strong>ARQUITECTURA EN CONTAINERS MARITIMOS</strong></h3>
     <h2>PIONEROS Y REFERENTES EN ARGENTINA EN EL RECICLADO DE CONTAINERS MARÍTIMOS PARA LA CREACION DE EDIFICIOS DE DISEÑO Y FUERTE IMPACTO VISUAL</h2>

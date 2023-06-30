@@ -1,5 +1,5 @@
 <section class="arquitectura-y-construccion">
-   <div class="banner-title">
+   <div class="">
       <h2>Arquitectura y construcción</h2>
       <hr class="line-below" />
    </div>

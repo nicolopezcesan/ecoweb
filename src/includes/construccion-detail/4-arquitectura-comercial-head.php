@@ -1,5 +1,5 @@
 <section class="como-llegar">
-  <div class="banner-title">
+  <div class="">
 
     <br><br><h3 class="text-secondary"><strong>ARQUITECTURA COMERCIAL INDUSTRIALIZADA</strong></h3>
     <h2>ECOSAN BRINDA UNA EXCELENTE RESPUESTA PARA LA EJECUCIÓN DE EDIFICIOS COMERCIALES</h2>
