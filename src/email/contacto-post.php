@@ -49,14 +49,15 @@ $body = "
 </html>
 ";
 
-echo $body;
-
 // Static data
-$to = "nicolopezcesan@gmail.com"; // info@ecosan.com.ar
+// $to = "info@ecosan.com.ar";
+$to = "nicolopezcesan@gmail.com";
 $subject = "Contacto";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: Ecosan <ecosan@consultas.com.ar>' . "\r\n";
 
 mail($to, $subject, $body, $headers);
 
-echo "La consulta fue enviada existosamente.";
+include 'layout.php';
+
+?>
