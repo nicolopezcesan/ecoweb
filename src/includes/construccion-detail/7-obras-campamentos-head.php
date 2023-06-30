@@ -1,5 +1,5 @@
 <section class="como-llegar">
-  <div class="banner-title">
+  <div class="">
 
     <br><br><h3 class="text-secondary"><strong>OBRAS CAMPAMENTOS: MINERIA, PETROLEO, GAS Y ENERGÍA</strong></h3>
     <h2>MÁS DE 20 AÑOS DE TRAYECTORIA, PROYECTANDO, PRODUCIENDO Y MONTANDO CAMPAMENTOS DE GRAN ESCALA EN TODO EL TERRITORIO ARGENTINO</h2>
@@ -32,7 +32,7 @@
               Nuestro objetivo final es brindar una solución customizada, rápida, eficiente, y de alta performance a nuestros Clientes, incluyendo en todos los casos un acompañamiento documental, de asistencia técnica y comercial esencial en este tipo de Obra.</p><br>
             
             <!-- ICONO RAPIDEZ -->
-            <div class="col-2 container">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-1 container">
             <img class="rapidez-icon"
                  src="/assets/images/rapidez-icon.svg">
           </div>

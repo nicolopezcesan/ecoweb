@@ -1,5 +1,5 @@
 <section class="como-llegar">
-  <div class="banner-title">
+  <div class="">
 
     <br><br><h3 class="text-secondary"><strong>ARQUITECTURA VIVIENDAS MODULARES</strong></h3>
     <h2>LA CASA QUE QUIERAS, EN UN PLAZO IMPENSABLE, CON EFICIENCIA ENERGÉTICA, LAS ÚLTIMAS TECNOLOGÍAS Y A UN MENOR COSTO</h2>

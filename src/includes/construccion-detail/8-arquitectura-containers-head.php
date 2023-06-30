@@ -1,5 +1,5 @@
 <section class="como-llegar">
-  <div class="banner-title">
+  <div class="">
 
     <br><br><h3 class="text-secondary"><strong>ARQUITECTURA EN CONTAINERS MARITIMOS</strong></h3>
     <h2>PIONEROS Y REFERENTES EN ARGENTINA EN EL RECICLADO DE CONTAINERS MARÍTIMOS PARA LA CREACION DE EDIFICIOS DE DISEÑO Y FUERTE IMPACTO VISUAL</h2>
@@ -26,7 +26,7 @@
               Nuestro objetivo final es brindar una solución customizada, rápida, eficiente, y de alta performance a nuestros Clientes.</p><br>
             
             <!-- ICONO RAPIDEZ -->
-            <div class="col-2 container">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-1 container">
             <img class="rapidez-icon"
                  src="/assets/images/rapidez-icon.svg">
           </div>

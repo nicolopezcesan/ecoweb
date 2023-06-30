@@ -6,6 +6,21 @@ $selItem = function ($itemName) use ($section) {
 }
 ?>
 
+<script>
+  // collapsa el submenú construcción cuando se despliega el menú principal
+  $(document).ready(function() {
+      $("#navButton").click(() => {
+        setTimeout(() => {
+          if ($("#navbarNavAltMarkup").hasClass('show')) {
+            $("#submenu-main").fadeOut();
+          } else {
+            $("#submenu-main").fadeIn();
+          }
+        }, 400)
+      });
+  });
+</script>
+
 <nav id="mainMenu" class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid menu">
 
@@ -15,11 +30,11 @@ $selItem = function ($itemName) use ($section) {
           <a class="navbar-brand" href="/">
             <img src="<?php echo $includeLogo; ?>" alt="Ecosan" class="logo" />
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button id="navButton" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-list"></i>
-
           </button>
         </div>
+
         <div class="col-lg-9 d-flex menu-list">
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="menu-links navbar-nav <?php echo str_replace('/', '', $section) ?>">

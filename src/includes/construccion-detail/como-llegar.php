@@ -1,5 +1,5 @@
 <section class="como-llegar">
-  <div class="banner-title">
+  <div class="">
     <h2>SERVICIOS PARA EVENTOS, DESDE BOLETERIA, GUARDARROPAS HASTA SANITARIOS.
     </h2>
     <hr class="line-below" />

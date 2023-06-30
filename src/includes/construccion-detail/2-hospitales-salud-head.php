@@ -1,5 +1,5 @@
 <section class="como-llegar">
-  <div class="banner-title">
+  <div class="">
 
     <br><br><h3 class="text-secondary"><strong>HOSPITALES MODULARES Y CENTROS DE SALUD</strong></h3>
     <h2>SISTEMA CONSTRUCTIVO MODULAR HOSPITALARIO DE ECOSAN</h2>
@@ -16,7 +16,7 @@
                La solución modular en el área de Salud en Argentina permitió aumentar en forma exponencial los centros de atención primaria y la cantidad de camas de internación, durante el año 2020 y 2021 dando una respuesta efectiva al problema de la Pandemia de COVID-19.</p><br>
 
             <!-- ICONO RAPIDEZ -->
-            <div class="col-2 container">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-1 container">
             <img class="rapidez-icon"
                  src="/assets/images/rapidez-icon.svg">
           </div>
