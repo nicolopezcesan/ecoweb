@@ -2,12 +2,17 @@
   $(() => {
     $(window).scroll(() => {
       const scrollPosition = $(window).scrollTop();
+      const width = window.innerWidth;
       if (scrollPosition > 80) {
         $("#mainMenu").fadeOut();
         $("#submenu-main").fadeIn();
       } else if (scrollPosition === 0) {
         $("#mainMenu").fadeIn();
-        $("#submenu-main").fadeOut();
+        setTimeout(() => {
+          if ($("#navbarNavAltMarkup").hasClass('show')) {
+            $("#submenu-main").fadeOut();
+          }
+        }, 400);
       }
     });
   });

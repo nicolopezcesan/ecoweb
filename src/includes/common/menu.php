@@ -9,15 +9,15 @@ $selItem = function ($itemName) use ($section) {
 <script>
   // collapsa el submenú construcción cuando se despliega el menú principal
   $(document).ready(function() {
-    $("#navButton").click(() => {
-      setTimeout(() => {
-        if ($("#navbarNavAltMarkup").hasClass('show')) {
-          $("#submenu-main").fadeOut();
-        } else {
-          $("#submenu-main").fadeIn();
-        }
-      }, 400)
-    });
+      $("#navButton").click(() => {
+        setTimeout(() => {
+          if ($("#navbarNavAltMarkup").hasClass('show')) {
+            $("#submenu-main").fadeOut();
+          } else {
+            $("#submenu-main").fadeIn();
+          }
+        }, 400)
+      });
   });
 </script>
 
