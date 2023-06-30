@@ -7,7 +7,7 @@ $selItem = function ($itemName) use ($section) {
 
 ?>
 
-<nav class="navbar">
+<nav id="submenu-main" class="navbar">
   <div class="menu custom-menu">
     <div class="container p-0">
       <ul id="custom-submenu" class="menu-links navbar-nav d-flex flex-wrap flex-row justify-content-sm-start justify-content-xs-between justify-content-between">

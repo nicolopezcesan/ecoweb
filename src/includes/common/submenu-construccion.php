@@ -4,6 +4,7 @@
       const scrollPosition = $(window).scrollTop();
       if (scrollPosition > 80) {
         $("#mainMenu").fadeOut();
+        $("#submenu-main").fadeIn();
       } else if (scrollPosition === 0) {
         $("#mainMenu").fadeIn();
       }
