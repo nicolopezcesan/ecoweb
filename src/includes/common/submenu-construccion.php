@@ -7,6 +7,7 @@
         $("#submenu-main").fadeIn();
       } else if (scrollPosition === 0) {
         $("#mainMenu").fadeIn();
+        $("#submenu-main").fadeOut();
       }
     });
   });
