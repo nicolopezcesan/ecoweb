@@ -8,7 +8,7 @@
 
   <div class="presupuesto-box" id="presu-box">
     <div class="container">
-      <form action="form.php" method="post" name="presupuesto" class="margin-top-2">
+      <form action="email/presupuesto-post.php" method="post" name="presupuesto" class="margin-top-2">
 
         <div class="formulario-tipo-de-presupuesto">
           <h4>Producto</h4>
@@ -16,16 +16,16 @@
             <article class="col-sm-6 col-md-6 col-lg-4">
               <label>Tipo</label>
               <select aria-required="true" id="producto" name="producto" required class="form-control" onchange="cambia_uso()">
-                <option value="1">Construcciones Modulares
-                <option value="2">Casas Industriales
-                <option value="3">Habitáculos Móviles y Oficinas
-                <option value="4">Containers
-                <option value="5">Baños Químicos
-                <option value="6">Duchas
-                <option value="7">Cabinas de Vigilancia
-                <option value="8">Estaciones de Reciclado
-                <option value="9">Shelters
-                <option value="10">Obras Civiles
+                <option value="Construcciones Modulares">Construcciones Modulares
+                <option value="Casas Industriales">Casas Industriales
+                <option value="Habitáculos Móviles y Oficinas">Habitáculos Móviles y Oficinas
+                <option value="Containers">Containers
+                <option value="Baños Químicos">Baños Químicos
+                <option value="Duchas">Duchas
+                <option value="Cabinas de Vigilancia">Cabinas de Vigilancia
+                <option value="Estaciones de Reciclado">Estaciones de Reciclado
+                <option value="Shelters">Shelters
+                <option value="Obras Civiles">Obras Civiles
               </select>
             </article>
             <article class="col-sm-6 col-md-6 col-lg-3">
@@ -38,14 +38,14 @@
             </article>
             <article class="col-sm-6 col-md-3 col-lg-3">
               <label>Condicion <span>*</span></label>
-              <select aria-required="true" id="tipodepresupuesto" name="tipodepresupuesto" required class="form-control" onchange="habilitarcantidaddemeses(this.value);">
+              <select aria-required="true" id="condicion" name="condicion" required class="form-control" onchange="habilitarcantidaddemeses(this.value);">
                 <option value="Venta">Venta</option>
                 <option value="Alquiler">Alquiler</option>
               </select>
             </article>
             <article class="col-sm-3 col-md-3 col-lg-2" id="tipo-de-presupuesto-alquiler">
               <label>Meses</label>
-              <input type="number" min="1" id="cantidaddemeses" value="1" placeholder="Cantidad de Meses" name="cantidaddemeses" class="form-control" disabled aria-required="true" required />
+              <input type="number" min="1" id="meses" value="1" placeholder="Cantidad de Meses" name="meses" class="form-control" disabled aria-required="true" required />
             </article>
 
             <!-- Evento Obra -->
@@ -55,7 +55,7 @@
             </article>
             <article class="col-sm-3 col-md-3">
               <label>Usuarios</label>
-              <input type="number" id="cantidaddeusuarios" value="1" name="cantidaddeusuarios" aria-required="true" required placeholder="Cantidad de Usuarios" min="1" class="form-control" />
+              <input type="number" id="usuarios" value="1" name="usuarios" aria-required="true" required placeholder="Cantidad de Usuarios" min="1" class="form-control" />
             </article>
             <article class="col-sm-9 col-md-4 col-lg-6">
               <label>Lugar</label>
@@ -73,7 +73,7 @@
           <div class="row">
             <article class="col-sm-6 col-md-4">
               <label>Apellido y Nombre</label>
-              <input aria-required="true" id="apellidoynombre" name="apellidoynombre" required class="form-control">
+              <input aria-required="true" id="apellidoynombre" name="name" required class="form-control">
             </article>
             <article class="col-sm-6 col-md-3">
               <label>Empresa</label>
