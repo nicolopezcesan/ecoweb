@@ -24,7 +24,6 @@ $body = "
   
   <body>
     <div>
-      <h2>Suscripción Newsletter</h2>
       <p>Hola, quiero suscribirme a las newsletter, mi email es: " . $email . "</p>
     </div>
   </body>
@@ -32,8 +31,8 @@ $body = "
 ";
 
 // Static data
-// $to = "info@ecosan.com.ar";
-$to = "nicolopezcesan@gmail.com";
+$to = "info@ecosan.com.ar";
+// $to = "nicolopezcesan@gmail.com";
 $subject = "Suscripción a Newsletter";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: Ecosan <ecosan@consultas.com.ar>' . "\r\n";
