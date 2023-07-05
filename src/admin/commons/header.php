@@ -21,8 +21,12 @@
       <h3 class="text-black-10">-</h3>
       <li
           class="nav-item <?php if (strpos($_SERVER['REQUEST_URI'], "create_new.php?type=4") !== false) { ?>active<?php } ?>">
-        <a class="nav-link text-black-10" href="/admin/create_new.php?type=4">Crear Nueva Slide en "Home"</a>
-      </li>
+          <a class="nav-link text-black-10" href="/admin/create_new.php?type=4">Crear Nueva Slide en "Home"</a>
+        </li>
+        <li
+          class="nav-item">
+          <a class="nav-link text-black-10" href="/admin/login/logout.php">Cerrar sesión</a>
+        </li>
     </ul>
   </div>
 </nav>
