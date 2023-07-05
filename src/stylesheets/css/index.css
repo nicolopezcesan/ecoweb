@@ -1234,6 +1234,7 @@ body .home .newsletter .newsletter-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  justify-content: center;
   max-width: 75%;
   margin: 0 auto;
 }
@@ -1266,6 +1267,12 @@ body .home .newsletter .newsletter-container .btn {
     justify-content: space-evenly;
     max-width: 90%;
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body .home .newsletter-container {
+    justify-content: center;
+    gap: 30px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -1780,6 +1787,7 @@ body .construccion .newsletter .newsletter-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  justify-content: center;
   max-width: 75%;
   margin: 0 auto;
 }
@@ -1812,6 +1820,12 @@ body .construccion .newsletter .newsletter-container .btn {
     justify-content: space-evenly;
     max-width: 90%;
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body .construccion .newsletter-container {
+    justify-content: center;
+    gap: 30px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -2388,6 +2402,7 @@ body .construccion-detail .newsletter .newsletter-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  justify-content: center;
   max-width: 75%;
   margin: 0 auto;
 }
@@ -2420,6 +2435,12 @@ body .construccion-detail .newsletter .newsletter-container .btn {
     justify-content: space-evenly;
     max-width: 90%;
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body .construccion-detail .newsletter-container {
+    justify-content: center;
+    gap: 30px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -3048,6 +3069,7 @@ body .rentals .newsletter .newsletter-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  justify-content: center;
   max-width: 75%;
   margin: 0 auto;
 }
@@ -3080,6 +3102,12 @@ body .rentals .newsletter .newsletter-container .btn {
     justify-content: space-evenly;
     max-width: 90%;
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body .rentals .newsletter-container {
+    justify-content: center;
+    gap: 30px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -3955,6 +3983,7 @@ body .rentals-detail .newsletter .newsletter-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  justify-content: center;
   max-width: 75%;
   margin: 0 auto;
 }
@@ -3987,6 +4016,12 @@ body .rentals-detail .newsletter .newsletter-container .btn {
     justify-content: space-evenly;
     max-width: 90%;
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body .rentals-detail .newsletter-container {
+    justify-content: center;
+    gap: 30px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -4526,6 +4561,7 @@ body .nosotros .newsletter .newsletter-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  justify-content: center;
   max-width: 75%;
   margin: 0 auto;
 }
@@ -4558,6 +4594,12 @@ body .nosotros .newsletter .newsletter-container .btn {
     justify-content: space-evenly;
     max-width: 90%;
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body .nosotros .newsletter-container {
+    justify-content: center;
+    gap: 30px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -4820,6 +4862,7 @@ body .contacto .newsletter .newsletter-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  justify-content: center;
   max-width: 75%;
   margin: 0 auto;
 }
@@ -4852,6 +4895,12 @@ body .contacto .newsletter .newsletter-container .btn {
     justify-content: space-evenly;
     max-width: 90%;
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body .contacto .newsletter-container {
+    justify-content: center;
+    gap: 30px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -5727,6 +5776,7 @@ body .novedades .newsletter .newsletter-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  justify-content: center;
   max-width: 75%;
   margin: 0 auto;
 }
@@ -5759,6 +5809,12 @@ body .novedades .newsletter .newsletter-container .btn {
     justify-content: space-evenly;
     max-width: 90%;
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body .novedades .newsletter-container {
+    justify-content: center;
+    gap: 30px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -6221,6 +6277,7 @@ body .novedades-detail .newsletter .newsletter-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  justify-content: center;
   max-width: 75%;
   margin: 0 auto;
 }
@@ -6253,6 +6310,12 @@ body .novedades-detail .newsletter .newsletter-container .btn {
     justify-content: space-evenly;
     max-width: 90%;
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body .novedades-detail .newsletter-container {
+    justify-content: center;
+    gap: 30px;
   }
 }
 @media only screen and (max-width: 992px) {
