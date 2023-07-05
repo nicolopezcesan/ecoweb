@@ -21,7 +21,6 @@
             <th scope="col">Name</th>
             <th scope="col">Title</th>
             <th scope="col">Type</th>
-            <th scope="col">Priority</th>
             <th scope="col">Actions</th>
           </tr>
         </thead>
@@ -39,7 +38,6 @@
                     <td>'.$row["name"].'</td>
                     <td>'.$row["title"].'</td>
                     <td>'.$row["type"].'</td>
-                    <td>'.$row["priority"].'</td>
                     <td>
                       <a href="edit_article.php?article_id='.$row["article_id"].' " class="btn btn-primary btn-sm">Edit</a>
                       <a href="/admin/edit_images.php?article_id='.$row["article_id"].' " class="btn btn-primary btn-sm">Images</a>
