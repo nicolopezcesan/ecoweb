@@ -33,7 +33,7 @@
             <p>Contamos con equipos de proyecto, ingeniería, montaje, y gremios especializados en este tipo de construcción.</p><br>
             
             <!-- ICONO RAPIDEZ -->
-            <div class="col-4 col-sm-4 col-md-3 col-lg-1 container">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-2 container">
             <img class="rapidez-icon"
                  src="/assets/images/rapidez-icon.svg">
           </div>

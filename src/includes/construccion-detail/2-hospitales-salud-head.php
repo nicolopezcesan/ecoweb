@@ -16,7 +16,7 @@
                La solución modular en el área de Salud en Argentina permitió aumentar en forma exponencial los centros de atención primaria y la cantidad de camas de internación, durante el año 2020 y 2021 dando una respuesta efectiva al problema de la Pandemia de COVID-19.</p><br>
 
             <!-- ICONO RAPIDEZ -->
-            <div class="col-4 col-sm-4 col-md-3 col-lg-1 container">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-2 container">
             <img class="rapidez-icon"
                  src="/assets/images/rapidez-icon.svg">
           </div>

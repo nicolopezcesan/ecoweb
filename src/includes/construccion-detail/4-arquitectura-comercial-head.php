@@ -30,7 +30,7 @@
             <p><strong>Nuestro objetivo final es brindar una solución customizada, rápida, eficiente, y de alta performance a nuestros Clientes.</strong></p><br>
             
             <!-- ICONO RAPIDEZ -->
-            <div class="col-4 col-sm-4 col-md-3 col-lg-1 container">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-2 container">
             <img class="rapidez-icon"
                  src="/assets/images/rapidez-icon.svg">
           </div>
