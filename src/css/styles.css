@@ -1,0 +1,868 @@
+body {
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+html {
+	overflow-x:hidden;
+}
+*::-moz-selection{
+   background: #a01814;
+   color: white;
+}
+*::selection {
+   background: #a01814;
+   color: white;
+}
+.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center; }
+section{	
+	padding: 100px 0 40px 0;		
+}
+.container-fluid{
+	padding: 0;
+}
+h1, h2, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>button, .nav-tel, .nav-mail,  .carousel .carousel-inner .item p, .list-tilde, .news-enviar, .btn-solicitar-presupuesto-fixed, .btn-atras, .btn-enviar, .sucursal span {
+	font-family: 'Oswald', sans-serif;
+}
+h3, h4, h5, h6, .carousel-inner h4, .titulo {
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h4, h5, h6, .carousel .carousel-inner .item h3, .titulo, .producto-content-1 h3, .producto-content-2 h3, .producto-content-3 h3, .producto-content-4 h3, .producto-content-5 h3, .producto-content-6 h3, .producto-content-7 h3, .producto-content-8 h3, .producto-content-9 h3, .empresa-item h3, .btn-solicitar-presupuesto-fixed, .btn-enviar, .sucursal span {
+	text-transform: uppercase;
+}
+h1, .color-negro, .nav-tel i, .nav-mail, .producto-content-1 h3, .producto-content-2 h3, .producto-content-3 h3, .producto-content-4 h3, .producto-content-5 h3, .producto-content-6 h3, .producto-content-7 h3, .producto-content-8 h3, .empresa-item h3, .sucursal span{
+	color: black;	
+}
+h3, h4, h5, h6, footer a .fa {
+	color:#727176;	
+}
+.gris20{
+	color:#d8dade;
+}
+.gris80{
+	color:#5b5b5f;
+}
+.background-producto{
+	background: #e6e6e6;
+}
+p, small, .empresa-aside h2, .nav-tabs a{
+	color:#6f6f6e;
+}
+a, a:hover, .color-bordo, .nav-tel, .producto-content-2:hover , .producto-content-3:hover, .producto-content-4:hover, .producto-content-5:hover, .producto-content-6:hover, .producto-content-7:hover, .producto-content-8:hover, .pagination>li>a, .pagination>li>span, .slick-arrow, .empresa-item i, .nav-tabs>li.active>a, form span, footer .fa:hover {
+	color:#a01814;
+}
+.news-enviar, .color-blanco, .carousel .carousel-inner .item h4, .carousel .carousel-inner .item h1, .carousel .carousel-inner .item p, .producto-content-1 h3, .producto-content-9 h3, .btn-pagination:focus, .pagination-active, .pagination-active:hover, .btn-solicitar-presupuesto-fixed, .btn-solicitar-presupuesto:hover, .btn-atras, .btn-atras:hover, .btn-enviar{
+	color: white;
+}
+.ocultar {
+	display:none;
+}
+.titulo{	
+	padding: 15px 0;
+	margin-bottom:30px;
+	font-size:30px;
+	color: black;
+	border-bottom: 1px solid #CCC;
+	font-weight: 700;
+}
+.linea{
+	margin: 15px 0;
+	background: #d8d9dd;
+	height: 1px;
+}
+.news-enviar{
+	background:#6f6f6e;
+}
+.bg-white{
+	background: white;
+}
+#home, .bg-black, .btn-solicitar-presupuesto-fixed:hover, .btn-solicitar-presupuesto:hover, .btn-atras, .noticia button, .btn-enviar{
+	background: black;
+}
+.bg-gris15, .formulario-tipo-de-presupuesto, .formulario-datos-personales{
+	background: #e2e4e7;
+}
+.btn-solicitar-presupuesto-fixed, .btn-pagination:focus, .pagination-active, .noticia button:hover, .noticia button:focus, .noticia button:active, .noticia button:visited, .btn-solicitar-presupuesto, .btn-enviar:hover{
+	background: #a01814;
+	border: none;
+}
+.btn-atras:hover{
+	background: #a01814;
+}
+.producto-content-1 h3, .producto-content-2 h3, .producto-content-3 h3, .producto-content-4 h3, .producto-content-5 h3, .producto-content-6 h3, .producto-content-7 h3, .producto-content-8 h3, .producto-content-9 h3, .empresa-item, .empresa-aside {
+	text-align: center;
+}
+
+/* border */
+.border-none, .navbar-default .navbar-nav>li>button, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>button:focus, .navbar-default .navbar-nav>li>button:hover, .navbar-default .navbar-nav>li>button:active, .empresa-aside-news input,.news-enviar, .noticia button, .formulario-tipo-de-presupuesto .form-control,.formulario-datos-personales .form-control, .btn-enviar{
+	border:none;
+}
+.border-radius-4{
+	border-radius:4px;
+}
+.border-radius-10{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}	
+.border-radius-20{
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}		
+#btn-solicitar-presupuesto, #btn-solicitar-presupuesto2, #btn-solicitar-presupuesto3, .btn-atras, #empresa img, .empresa-aside, .empresa-aside-news, .news-enviar, .formulario-tipo-de-presupuesto, .formulario-datos-personales, .btn-enviar, .noticia img, #contacto iframe{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.border-top-1{
+	border-top: solid 1px #CCC;
+}
+.border-bottom-1{
+	border-bottom: solid 1px #CCC;
+}
+
+/* margin */
+.margin-1, .producto-content-1, .producto-content-2, .producto-content-3, .producto-content-4, .producto-content-5, .producto-content-6, .producto-content-7, .producto-content-8, .producto-content-9{margin:15px}
+.margin-vertical-1, .sucursal{margin-top:15px; margin-bottom:15px}.margin-vertical-2{margin-top:30px; margin-bottom:30px}
+.margin-top-1, .news-enviar{margin-top:15px}.margin-top-19px{margin-top:19px}.margin-top20px{margin-top:20px}.margin-top-2, .formulario-tipo-de-presupuesto, .formulario-datos-personales, .btn-enviar{margin-top:30px}.margin-top-3{margin-top:45px}.margin-top-4{margin-top:60px}
+.margin-bottom-1, #empresa img{margin-bottom:15px}.margin-bottom-2, .noticia{margin-bottom:30px}.margin-bottom-3{margin-bottom:45px}.margin-bottom-4{margin-bottom:60px}
+
+/* padding */
+.padding-1, .modal-content, .formulario-tipo-de-presupuesto, .formulario-evento-obra, .formulario-datos-personales{padding:15px}
+.padding-vertical-1, footer{padding-top:15px;padding-bottom:15px}.padding-vertical-2{padding-top:30px;padding-bottom:30px}.padding-horizontal-1{padding-left:15px;padding-right:15px}
+.padding-top-1{padding-top:15px}.padding-top-2{padding-top:30px}.padding-top-3{padding-top:45px}.padding-top-4{padding-top:60px}
+.padding-left-1{padding-left:15px}
+.padding-bottom-2, .navbar-default .navbar-nav>li>button{padding-bottom:30px}
+
+/* List */
+.list-tilde {
+	list-style-image: url("../img/iso-list.png");
+}
+.list-tilde li{
+	margin-bottom: 5px;
+}
+
+/* NAV */
+.navbar-toggle{
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
+.navbar-default {
+    border: none;
+	-moz-box-shadow:0 7px 10px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow:0 7px 10px rgba(0, 0, 0, 0.1);
+	box-shadow:0 7px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {	
+	width:224px;
+	height:95px;
+	padding-top: 16px;
+	position: absolute;
+	z-index: 2;
+	margin-left:0;
+}
+.navbar-right {
+	float: right!important;
+	margin-right: -70px;
+}
+.navbar-brand, .producto-content-1, .producto-content-2, .producto-content-3, .producto-content-4, .producto-content-5, .producto-content-6, .producto-content-7, .producto-content-8, .producto-content-9, .obra-thumb, .producto-thumb, .empresa-aside, .footer-img {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform: scale(1);
+-webkit-transform: scale(1);
+-moz-transform: scale(1);
+-o-transform: scale(1);
+-ms-transform: scale(1);
+}
+.navbar-brand:hover, .carousel-iso-9001:hover, .carousel-iso-14001:hover, .obra-thumb-container:hover, .producto-thumb:hover, .empresa-aside:hover, aside .aside-iso:hover, .footer-img:hover {
+transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+}
+
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>button {
+	font-size: 14px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.navbar-default .navbar-nav>li>button{
+	background: none;	
+	color: #777;
+	padding-top:26px;	
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>button:focus, .navbar-default .navbar-nav>li>button:hover, .navbar-default .navbar-nav>li>button:active {
+    color: #9e1b1f;
+    background-color: transparent;	
+	outline: none;
+	box-shadow: none;
+}
+.nav>li>a {
+    padding: 0px 12px;
+}
+.nav-tel{
+	font-size:24px;
+	padding: 8px 15px 4px 15px;
+	border-left: solid 1px #CCC;
+	margin: 10px 0;
+}
+.nav-mail{
+	font-size:16px;
+}
+.link-nav-mail{
+	color:#4A4A49;
+}
+.link-nav-mail:hover{
+	color:#000;
+	text-decoration: none;
+}
+.nav-iso{
+	float: right;
+	border-left: solid 1px #CCC;
+	margin-top:10px;	
+	padding-bottom: 13px;
+	width: 19%;	
+}
+.aside-iso{
+	float: left;
+	padding: 0 7px 0 7px;	
+	width: 36%;
+	margin-top: 3px;
+}
+
+/* HOME */
+#home, #productos{
+	margin-bottom:0;
+	padding-bottom:0;	
+}
+.carousel-control{
+	width:5%;
+}
+.carousel-inner{
+	border-bottom: 2px solid #a01814;
+}
+/* text */
+.carousel .carousel-inner .item h1, .carousel .carousel-inner .item h4, .carousel .carousel-inner .item p, .carousel .carousel-inner .item .carousel-iso-9001, .carousel .carousel-inner .item .carousel-iso-14001{	
+	position: absolute;
+}
+.carousel .carousel-inner .item h1{	
+	font-size: 72px;	
+	font-weight: 700;	
+	bottom: 376px;	
+	right: 150px;
+	text-shadow:0px 0px 20px #000000;	
+	padding-bottom:10px;
+}
+.carousel .carousel-inner .item h4{	
+	bottom: 465px;	
+	right: 155px;
+}
+.carousel .carousel-inner .item p{		
+	right: 150px;
+	bottom: 320px;	
+	font-size: 24px;
+	text-align: right;
+	font-weight: 300;	
+}
+.carousel .carousel-inner .item h4, .carousel .carousel-inner .item p, .carousel .carousel-inner .item .carousel-iso-9001 img, .carousel .carousel-inner .item .carousel-iso-14001 img{	
+	text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.8);
+}
+.carousel .carousel-inner .item .carousel-iso-9001{
+	right: 205px;
+	bottom: 245px;
+	width: auto;
+}
+.carousel .carousel-inner .item .carousel-iso-14001{
+	right: 120px;
+	bottom: 245px;
+	width: auto;
+}
+.carousel .carousel-inner .item .carousel-iso-9001 img, .carousel .carousel-inner .item .carousel-iso-14001 img{
+	width: 75%;
+}
+.carousel-iso-9001 a, .carousel-iso-14001 a, .obra-thumb-container:hover, .producto-box, .producto-thumb:hover, .noticia:hover, .aside-iso, .footer-img-link{
+	cursor: pointer;
+}
+.btn-solicitar-presupuesto-fixed{
+	-moz-border-radius-topleft: 12px;
+	-moz-border-radius-topright:12px;
+	-webkit-border-top-left-radius:12px;
+	-webkit-border-top-right-radius:12px;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	writing-mode: lr-tb;
+	position: fixed;
+	top:50%;
+	right: -67px;
+	padding: 15px 10px 12px 10px;
+	letter-spacing: 1px;
+	z-index: 999;
+}
+.btn-solicitar-presupuesto-fixed:hover, .btn-solicitar-presupuesto-fixed:link, .btn-solicitar-presupuesto-fixed:focus{
+	text-decoration: none;
+	color: white;
+}
+
+/* MODAL */
+.modal-lg{
+	width: 60%;
+}
+
+.modal-content .row{
+	margin-left:0;
+	margin-right:0;
+}
+.modal-content h6{
+	margin-bottom: 0;
+}
+.modal-content h2{
+	margin-top: 5px;
+	;
+}
+.modal-iso{
+	max-width: 617px;
+}
+.close{
+	position: absolute;
+	right: 15px;
+}
+.modal-producto-logo{
+	width: 125px;
+	margin-bottom: 15px;
+}
+#btn-solicitar-presupuesto{
+	padding: 12px 0;	
+	text-transform: uppercase;
+	color: white;
+	border: none;
+	background: #a01814;
+	width: 100%;
+}
+#btn-solicitar-presupuesto:hover{
+	text-decoration: none;
+	background:#000;
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;    
+}
+.destacado {    
+    background-color: #5b5b5f;   
+	border-radius: 10px;
+	color: #fff;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.destacado p{
+	color:#FFF;
+}
+
+/* PRODUCTOS */
+#productos .titulo {
+	margin-bottom: 0;
+}
+.producto-box{	
+    position: relative;    
+    overflow: hidden;
+}
+.producto-box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.producto-content-1, .producto-content-2, .producto-content-3, .producto-content-4, .producto-content-5, .producto-content-6, .producto-content-7, .producto-content-8, .producto-content-9{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+	border: solid 1px #d8d9dd;
+	-moz-border-radius: 20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	-moz-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+}
+.producto-content-1{background: url("../img/productos/ecosan-construcciones-modulares.png"); opacity: 0.9; background-size: cover; -moz-background-size: cover; background-position: center;}	
+.producto-content-1:hover{background: url("../img/productos/ecosan-construcciones-modulares-hover.png") white; opacity: 1; background-size: cover; -moz-background-size: cover; background-position: center;}
+.producto-content-2{background: url("../img/productos/ecosan-viviendas-modulares-industrializadas.png"); opacity: 0.9; background-size: cover; -moz-background-size: cover; background-position: center;}	
+.producto-content-2:hover{background: url("../img/productos/ecosan-viviendas-modulares-industrializadas-hover.png") white; opacity: 1; background-size: cover; -moz-background-size: cover; background-position: center;}
+.producto-content-3{background: url("../img/productos/ecosan-habitaculos-moviles-y-oficinas.png") white; opacity: 0.9; background-size: cover; -moz-background-size: cover; background-position: center;}	
+.producto-content-3:hover{background: url("../img/productos/ecosan-habitaculos-moviles-y-oficinas-hover.png") white; opacity: 1; background-size: cover; -moz-background-size: cover; background-position: center;}
+.producto-content-4{background: url("../img/productos/ecosan-containers.png") white; opacity: 0.9; background-size: cover; -moz-background-size: cover; background-position: center;}	
+.producto-content-4:hover{background: url("../img/productos/ecosan-containers-hover.png") white; opacity: 1; background-size: cover; -moz-background-size: cover; background-position: center;}
+.producto-content-5{background: url("../img/productos/ecosan-banos-quimicos-y-duchas.png") white; opacity: 0.9; background-size: cover; -moz-background-size: cover; background-position: center;}	
+.producto-content-5:hover{background: url("../img/productos/ecosan-banos-quimicos-y-duchas-hover.png") white; opacity: 1; background-size: cover; -moz-background-size: cover; background-position: center;}
+.producto-content-6{background: url("../img/productos/ecosan-cabinas-de-vigilancia.png") white; opacity: 0.9; background-size: cover; -moz-background-size: cover; background-position: center;}	
+.producto-content-6:hover{background: url("../img/productos/ecosan-cabinas-cabinas-de-vigilancia-hover.png") white; opacity: 1; background-size: cover; -moz-background-size: cover; background-position: center;}
+.producto-content-7{background: url("../img/productos/ecosan-containers-estaciones-de-reciclado.png") white; opacity: 0.9; background-size: cover; -moz-background-size: cover; background-position: center;}	
+.producto-content-7:hover{background: url("../img/productos/ecosan-containers-estaciones-de-reciclado-hover.png") white; 	opacity: 1; background-size: cover; -moz-background-size: cover; background-position: center;}
+.producto-content-8{background: url("../img/productos/ecosan-shelters.png") white; opacity: 0.9; background-size: cover; -moz-background-size: cover; background-position: center;}	
+.producto-content-8:hover{background: url("../img/productos/ecosan-shelters-hover.png") white; opacity: 1; background-size: cover; -moz-background-size: cover; background-position:center;}
+.producto-content-9{background: url("../img/productos/ecosan-obras-civiles.png"); opacity: 0.9; background-size: cover; -moz-background-size: cover; background-position: center;}	
+.producto-content-9:hover{background: url("../img/productos/ecosan-obras-civiles-hover.png") white; opacity: 1; background-size: cover; -moz-background-size: cover; background-position: center;}
+
+.producto-content-1 h3, .producto-content-2 h3, .producto-content-3 h3, .producto-content-4 h3, .producto-content-5 h3, .producto-content-6 h3, .producto-content-7 h3, .producto-content-8 h3, .producto-content-9 h3{
+	font-size:18px;
+	position: absolute;
+	bottom: 10px;
+	left:20px;
+	right:20px;
+}
+.producto-content-1 h3, .producto-content-9 h3 {
+	text-shadow:0px 0px 15px #000000;
+}
+.navbar-brand:hover, .producto-content-1:hover, .producto-content-2:hover, .producto-content-3:hover, .producto-content-4:hover, .producto-content-5:hover, .producto-content-6:hover, .producto-content-7:hover, .producto-content-8:hover, .producto-content-9:hover {
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+}
+.btn-enviar{	
+	padding: 12px 45px;
+}
+.obra-thumb-container{
+	padding:0;
+}
+.obra-thumb{
+	border: solid 1px #d8d9dd;
+	-moz-border-radius: 20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	-moz-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+	padding: 0;
+	margin: 15px;
+}
+.obra-thumb img{
+	-moz-border-radius: 20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+}
+
+.btn-atras{
+	padding: 6px 0px;
+	width: 20%;
+	margin: 0 0 20px 0;
+	border: none;
+	font-size: 18px;
+}
+.titulo-producto-detalle{
+	padding-left: 0;
+}
+/* EMPRESA */
+#empresa{	
+	padding-bottom: 0;
+}
+#empresa .titulo{
+	margin-bottom:0;
+}
+.empresa-item i{
+	font-size:92px;
+}
+.empresa-item h4{
+	margin-top: 21px;
+}
+.empresa-item i {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+
+}
+.empresa-item i:hover{
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+}
+
+/* SOLICITAR PRESUPUESTO */
+.form-control {
+	border-top: none;
+	border-right: none;
+    border-left: 1px solid #999;
+	border-bottom: 1px solid #999;
+	
+}
+label{
+	font-size: 14px;
+	color: #6f6f6e;
+	font-weight: 400;
+}
+#productouso, #tipo-de-presupuesto-alquiler{
+	margin-top:	14px;
+}
+
+.opcion-condicionada{
+	margin-top: 25px;
+}
+#comentario{
+	min-height: 80px;
+}
+
+/* CLIENTES */
+.cliente{
+	float: left;
+	width: 12.5%;
+	margin-bottom: 15px;
+}
+.cliente-presidencia{
+	float: left;
+	width: 25%;
+	margin-bottom: 15px;
+}
+
+
+/* NOVEDADES */
+.noticia h6{ 
+	color:#9a9999;
+}
+.noticia h3 {
+	color: #444242;
+	margin-top: 8px;
+}
+.noticia h4{ 
+	line-height:24px;
+}
+.noticia h6{ 
+	margin-bottom:0;
+}
+.noticia p{
+	min-height:60px;
+}
+
+/* NEWSLETTERS */
+.small-newsletter{
+	-moz-box-shadow:0 0 12px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow:0 0 12px rgba(0, 0, 0, 0.2);
+	box-shadow:0 0 12px rgba(0, 0, 0, 0.2);
+	margin:15px;
+}
+.small-newsletter:hover{
+	-moz-box-shadow:0 0 16px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow:0 0 16px rgba(0, 0, 0, 0.4);
+	box-shadow:0 0 16px rgba(0, 0, 0, 0.4);
+	cursor:pointer;
+}
+
+/* CONTACTO */
+.sucursal img, .sucursal span{
+	float: left;
+}
+.sucursal img{
+	margin-right: 5px;
+}
+.sucursal span {	
+	font-size:16px;
+}
+.sucursal h5{
+	margin-top: 0;
+	margin-bottom: 5px;	
+}
+
+/* FOOTER */
+footer{
+	background: #f8f8f8;
+	-moz-box-shadow:0 -8px 8px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow:0 -8px 8px rgba(0, 0, 0, 0.1);
+	box-shadow:0 -8px 8px rgba(0, 0, 0, 0.1);
+	overflow:hidden;
+	height:1%;
+}
+address{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-bottom: 0;
+}
+address a, address a:hover{
+	color:#333;
+	text-decoration: none;
+}
+footer .fa{
+	font-size:30px;
+	margin-right: 7px;
+}
+.norma-iso{
+	max-width: 568px;	
+	padding: 15px 0;
+}
+
+/* --------------------------------------------------------------------- RESPONSIVE --------------------------------------------------------------------- */
+@media (max-width: 1306px) {
+	.navbar-collapse .nav-iso{
+		display: none;
+	}
+	.navbar-right {
+		float: right!important;
+		margin-right: 0px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.navbar-default .navbar-nav>li>a {
+		font-size: 12px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.carousel .carousel-inner .item h1, .carousel .carousel-inner .item h3, .carousel .carousel-inner .item p{
+		right: 70px;
+	}
+	.carousel .carousel-inner .item h1{
+		bottom: 222px;
+	}
+	.carousel .carousel-inner .item h3{
+		bottom: 310px;
+	}
+	.carousel .carousel-inner .item p{
+		bottom: 170px;
+	}
+	.carousel .carousel-inner .item .carousel-iso-9001{
+		right: 125px;
+		bottom: 100px;
+	}
+	.carousel .carousel-inner .item .carousel-iso-14001{
+		right: 45px;		
+		bottom: 100px;
+	}
+	#cantidad-de-m2{
+		margin-top: 40px;
+	}
+	.regular h4{
+		font-size: 16px;
+	}
+}	
+@media (min-width: 992px) {
+	.navbar-collapse.collapse{
+		display: block;
+	}
+}
+@media (max-width: 992px) {
+	section {
+		padding: 76px 0 40px 0;
+	}
+	.navbar-collapse{
+		display: none;
+	}
+	.navbar-header{
+		float: none;
+	}
+	.navbar-toggle {
+		display: inline-block;
+		float: right;
+	}
+	.navbar-brand {
+		padding-top:5px;
+	}
+	.carousel .carousel-inner .item h1, .carousel .carousel-inner .item h3, .carousel .carousel-inner .item p{
+		right: 60px;
+	}
+	.carousel .carousel-inner .item h1{
+		bottom: 160px;
+	}
+	.carousel .carousel-inner .item h3{
+		bottom: 250px;
+	}
+	.carousel .carousel-inner .item p{
+		bottom: 110px;
+	}
+	.carousel .carousel-inner .item .carousel-iso-9001{
+		right: 115px;
+		bottom: 40px;
+	}
+	.carousel .carousel-inner .item .carousel-iso-14001{
+		right: 35px;		
+		bottom: 40px;
+	}
+	.empresa-item {
+		min-height:220px;
+	}
+	#cantidad-de-m2{
+		margin-top: 20px;
+	}
+	.noticia{
+		min-height: 635px;
+	}
+	.sucursal{
+		min-height: 170px;	
+	}
+}
+
+@media screen and (max-width: 860px) {
+	.flex-direction-nav .flex-prev {
+		opacity: 1;
+		left: 10px;
+	}
+	.flex-direction-nav .flex-next {
+		opacity: 1;
+		right: 10px;
+	}
+}
+
+@media (max-width: 768px) {
+	section{	
+		padding-top: 0;		
+	}
+	.titulo{
+		font-size:24px;
+	}
+	nav{
+		height:76px;
+	}
+	#home{
+		padding-top:76px;
+	}
+	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+		margin-left: 0px;
+	}
+	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+		margin-right: 0px;
+	}
+	#nav-catalogo, .btn-solicitar-presupuesto-fixed, .aside-logo, .aside-iso, .carousel-indicators, .carousel .carousel-inner .item h1, .carousel .carousel-inner .item h3, .carousel .carousel-inner .item p, .carousel .carousel-inner .item .carousel-iso-9001, .carousel .carousel-inner .item .carousel-iso-14001{
+		display: none;
+	}
+	.producto-content-1 h3, .producto-content-2 h3, .producto-content-3 h3, .producto-content-4 h3, .producto-content-5 h3, .producto-content-6 h3{
+		font-size: 16px;
+		bottom: 0px;
+	}
+	.modal-lg{
+		width: 85%;
+	}
+	.modal-dialog{
+		margin: 30px auto;
+	}
+	.cliente{
+		width: 33.33333333333333%;	
+	}
+	.cliente-presidencia{
+		width: 66.66666666666666%;	
+		text-align: center;
+	}
+	.noticia, .sucursal{
+		min-height: auto;
+	}
+	.footer-img{
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev  {
+		margin-left: 40px;
+	}
+	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+		margin-right: 40px;
+	}
+}
+
+@media (max-width: 767px) {
+	.nav{
+		background: rgba(255, 255, 255, 0.85);
+		-moz-box-shadow:0 7px 15px rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow:0 7px 15px rgba(0, 0, 0, 0.1);
+		box-shadow:0 7px 15px rgba(0, 0, 0, 0.1);
+	}
+	.navbar-nav{
+		margin-top: 0;
+		width: auto;		
+		float: right;
+		padding: 15px 15px;
+	}
+	.navbar-default .navbar-nav>li>a {		
+		padding: 8px 15px;		
+		text-align: right;
+		font-size: 16px;
+		color: black;		
+	}
+	.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:link {
+		border-bottom: 1px solid black;
+	}
+	.empresa-item {
+		margin-bottom:30px;
+		min-height:auto;}
+	}
+	.empresa-aside, .empresa-aside-news{
+		background: #d7d7d6;
+		padding: 15px;	
+		margin-bottom: 15px;
+	}
+	.empresa-aside h2{
+		border-bottom:none;
+		padding-bottom:0;	
+		margin:0;
+	}
+	.empresa-aside-news h4{
+		margin-top:0;
+	}
+	.news-enviar{	
+		padding: 5px 25px;
+	}
+}
+
+@media (max-width: 765px) {
+	#cantidad-de-m2{
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 361px) {
+	.navbar-toggle{
+		margin-right: 7px;
+	}
+	h4, .producto-content-1 h3, .producto-content-2 h3, .producto-content-3 h3, .producto-content-4 h3, .producto-content-5 h3, .producto-content-6 h3, .sucursal span{
+		font-size: 14px;
+	}
+	h3{
+		font-size: 16px;
+	}
+	.titulo{
+		font-size:21px;
+	}
+	.btn-solicitar-presupuesto{	
+		padding: 12px 38px;
+	}
+	.empresa-item i{
+		font-size: 72px;
+	}
+}
+
+
+.wsp {
+    position: fixed;
+    z-index: 9999;
+    background: #1bd741;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    right: 30px;
+    bottom: 20px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.wsp a {
+    color: #fff;
+    font-size: 50px;
+}
+
+.wsp:hover {
+    background: #009688;
+}

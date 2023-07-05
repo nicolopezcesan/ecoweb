@@ -50,8 +50,8 @@ $body = "
 ";
 
 // Static data
-// $to = "info@ecosan.com.ar";
-$to = "nicolopezcesan@gmail.com";
+$to = "info@ecosan.com.ar";
+// $to = "nicolopezcesan@gmail.com";
 $subject = "Contacto";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: Ecosan <ecosan@consultas.com.ar>' . "\r\n";
