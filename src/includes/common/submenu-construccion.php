@@ -1,49 +1,5 @@
-<script>
-  $(() => {
-    $(window).scroll(() => {
-      const scrollPosition = $(window).scrollTop();
-      const width = window.innerWidth;
-      if (scrollPosition > 80) {
-        $("#mainMenu").fadeOut();
-        $("#submenu-main").fadeIn();
-      } else if (scrollPosition === 0) {
-        $("#mainMenu").fadeIn();
-        setTimeout(() => {
-          if ($("#navbarNavAltMarkup").hasClass('show')) {
-            $("#submenu-main").fadeOut();
-          }
-        }, 400);
-      }
-    });
-  });
-</script>
-
-<style>
-  .navbar .custom-menu {
-    height: auto;
-    padding: 5px;
-    background: rgb(0 0 0 / 90%);
-  }
-
-  #custom-submenu a {
-    font-size: 11px;
-    padding: 10px 8px;
-  }
-
-  #custom-submenu li {
-    padding: 0 10px;
-  }
-
-  body .menu #custom-submenu li:after {
-    position: unset;
-  }
-
-  .menu .menu-links li a:after {
-    right: 20px;
-  }
-</style>
-
 <?php
+
 $submenuArray = [
   ["SERVICIO INTEGRAL", "/construccion-servicio-integral.php"],
   ["HOSPITALES Y SALUD", "/construccion-hospitales-centros-salud.php"],

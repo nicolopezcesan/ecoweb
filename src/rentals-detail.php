@@ -6,6 +6,7 @@
 <body>
   <?php 
     include "includes/common/menu.php";
+    include "includes/common/submenu-rentals.php";
     include "pages/rentals-detail.php";
     include "includes/common/footer.php";
   ?>
