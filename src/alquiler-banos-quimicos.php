@@ -1,28 +1,32 @@
-<style>
-	.tituloseo {
-		color: #A4282C !important;
-		padding-top: 25px;
-	}
-</style>
+<head>
+	<link rel="stylesheet" href="/stylesheets/css/footer-pages.css">
+</head>
 
-<?php // include('includes/head-alquiler-banos-quimicos.php'); ?>
+<?php // include('includes/head-alquiler-banos-quimicos.php'); 
+?>
+<?php include "includes/common/head.php"; ?>
 
 <body>
-	<?php // include('includes/loader.php'); ?>
-	<?php // include('includes/nav2.php'); ?>
 
-	<!-------------------------------------------------------------------------------------- HOME -------------------------------------------------------------------------------------->
+	<?php // include('includes/loader.php'); 
+	?>
+	<?php // include('includes/nav2.php'); 
+	?>
+
 	<section id="home">
-		<!-- SOLICITAR PRESUPUESTO -->
-		<?php // include('includes/btn-solicitar-presupuesto2.php'); ?>
+
+		<?php // include('includes/btn-solicitar-presupuesto2.php'); 
+		?>
+
 		<div class="col-xs-12">
 			<div class="ro">
-				<img src="img/empresa/ecosan casa central.jpg" class="img-responsive" alt="ecosan casa central">
+				<img src="/assets/images/background-rentals-detail.png" class="img-responsive" alt="ecosan banos quimicos">
 			</div>
 		</div>
 
-		<div class="col-xs-12">
+		<div class="col-xs-12" style="text-align: center; margin: 20px 0;">
 			<div class="container">
+
 				<h1 class="tituloseo">Alquiler de Baños Químicos</h1>
 
 				<p>
@@ -39,81 +43,75 @@
 					Esto siempre con valores de alquiler accesibles y competitivos, pues los precios de toda la línea de baños químico y servicios Ecosan, resultan siempre la propuesta más conveniente para el cliente.
 				</p>
 
-				<h2 style="padding-top: 25px;">Renta y Servicio de Limpieza de Baños Químicos</h2>
+				<h2 style="padding-top: 25px;">
+					Renta y Servicio de Limpieza de Baños Químicos
+				</h2>
+
 				<p>
 					Los sanitarios portátiles con tanques químicos resuelven la demanda de baños en aquellas situaciones en que las soluciones tradicionales de baños fijos vinculados a tanques sépticos o pozo, no resultan posibles. Como se pueden limpiar de modo muy sencillo, y disponen de ventilación, estos baños químicos portátiles se pueden alquilar durante el período estrictamente necesario, luego Ecosan entrega las unidades portátiles en el sitio indicado, y al concluir el evento o la obra las retira, efectuando durante el período de uso las limpiezas programadas según la frecuencia requerida. La organización o el emprendedor que contrata baños químicos en alquiler se asegura de este modo una solución práctica para su requerimiento temporal, pudiendo extender el período de uso según necesidad y contratar el servicio de mantenimiento y limpieza que más se adapta a su necesidad.
 					<br><br>
 					Si bien los baños químicos en alquiler son por naturaleza elementos transitorios, deben instalarse en lugares accesibles para que puedan revisarse y vaciarse de manera regular. También debe tenerse en cuanta instalarlos sobre un piso bien nivelado, de modo tal de que la estructura del módulo apoye de manera pareja en toda su base. Hay que considerar que al limpiar estas unidades se pueden generan olores, con lo cual se sugiere ubicarlos alejados de viviendas o arterias públicas y en áreas apartadas. Si se tienen en cuenta estas consideraciones básicas, el alquiler de baños químicos es una solución por demás cómoda que reporta experiencias siempre positivas.
 				</p>
 
-				<h2 style="padding-top: 25px;">Precios de Alquiler de Baños Químicos</h2>
+				<h2 style="padding-top: 25px;">
+					Precios de Alquiler de Baños Químicos
+				</h2>
+
 				<p>
 					Las unidades sanitarias portátiles que ofrece Ecosan se fabrican de polipropileno con filtros U.V.. Su diseño es de formas y superficies perfectamente lisas, lo cual facilita la higiene general. Si bien es cierto que estos baños químicos por su condición portátil se suelen solicitar en alquiler de manera temporal, en muchos otros casos se emplean por períodos prolongados en sitios donde incluso cuentan con redes de desagües o suministro de agua corriente. Dado que estas unidades ofrecen un funcionamiento autónomo, independientemente que el lugar disponga o no de servicios de redes sanitarias. <br><br>
 					Además de su clásica utilización para ubicar en obras en construcción, El alquiler de baños químicos se ha extendido a eventos empresariales y deportivos, fiestas, casamientos, plazas públicas, sitios turísticos (por temporada), etc. <br><br>
 					Para realizar la limpieza de los baños químicos en alquiler, existen procedimientos estandarizados utilizando hidro jets y bombas residuales. Por lo demás, estos sanitarios portátiles pueden dar servicio a distinto número de personas, dependiendo de cuál sea su destino (eventos u obras).
 					Para conocer más detalles sobre el alquiler de baños químicos en Argentina, sus precios y su mantenimiento, contáctese ahora con Ecosan. ¡Tenemos la solución más consistente para su requerimiento de sanitarios portátiles!.
 				</p>
-
-
-
 			</div>
 		</div>
-
-
-
 	</section>
 
-	<!-------------------------------------------------------------------------------------- PRODUCTOS -------------------------------------------------------------------------------------->
+	<!-- PRODUCTOS -->
 
-
-
-
-
-	<!-------------------------------------------------------------------------------------- EMPRESA -------------------------------------------------------------------------------------->
+	<!-- EMPRESA -->
 	<section id="empresa">
 		<div class="container-fluid">
 			<!-- items -->
 			<div class="container padding-top-4 margin-bottom-1">
-				<div class="row margin-bottom-2">
+				<div class="d-flex flex-column">
 					<!-- item -->
-					<article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 empresa-item padding-top-4">
+					<article class="empresa-item text-center padding-top-4">
 						<i class="fa fa-paint-brush" aria-hidden="true"></i>
 						<h3>diseño</h3>
 						<p>Diseñamos proyectos totalmente equipados, de gran resistencia estructural, que se adaptan a sus necesidades específicas</p>
 					</article>
 					<!-- item -->
-					<article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 empresa-item padding-top-4">
+					<article class="empresa-item text-center padding-top-4">
 						<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
 						<h3>stock permanente</h3>
 						<p>Disponemos de un gran stock que nos permite tener el mejor abastecimiento del mercado</p>
 					</article>
 					<!-- item -->
-					<article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 empresa-item padding-top-4">
+					<article class="empresa-item text-center padding-top-4">
 						<i class="fa fa-clock-o" aria-hidden="true"></i>
 						<h3>entrega inmediata</h3>
 						<p>Entregas en el día o pactadas en la fecha deseada por el cliente</p>
 					</article>
 					<!-- item -->
-					<article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 empresa-item padding-top-4">
+					<article class="empresa-item text-center padding-top-4">
 						<i class="fa fa-globe" aria-hidden="true"></i>
 						<h3>gran alcance</h3>
 						<p>Cobertura en todo el país y también internacional gracias a nuestra sucursal de Chile</p>
 					</article>
 				</div>
-
-
 			</div>
+		</div>
 	</section>
+	<!-- CONTACTO  -->
+	</div>
 
-
-
-	<!--------------------------------------------------------------------------------------- CONTACTO ---------------------------------------------------------------------------------------->
-
-	</div><!-- container fluid -->
-	<!----------------------------------------------------------------------------------------- FOOTER ---------------------------------------------------------------------------------------->
-	<?php // include('includes/footer2.php'); ?>
-	<?php // include('includes/iso.php'); ?>
-	<?php // include('includes/js.php'); ?>
+	<!-- FOOTER -->
+	<?php /* 
+	include('includes/footer2.php'); 
+	include('includes/iso.php');
+	include('includes/js.php');
+	*/ ?>
 
 	<!-- Google Code for Ecosan HomePage Remarketing List -->
 	<script type="text/javascript">

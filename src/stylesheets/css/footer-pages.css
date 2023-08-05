@@ -1,0 +1,30 @@
+
+body {
+  text-align: center;
+}
+
+body h3 {
+  text-transform: uppercase;
+}
+
+.ro img {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+p {
+  font-family: "Titillium Web" !important;
+}
+
+.tituloseo {
+  font-family: "Avenir";
+  font-size: 34px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+}
+
+#empresa {
+  margin: 0 0 20px;
+}

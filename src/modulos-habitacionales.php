@@ -1,28 +1,33 @@
-<style>
-	.tituloseo {
-		color: #A4282C !important;
-		padding-top: 25px;
-	}
-</style>
+<?php // include('includes/head-modulos-habitacionales.php'); 
+?>
 
-<?php // include('includes/head-modulos-habitacionales.php'); ?>
+<head>
+	<link rel="stylesheet" href="/stylesheets/css/footer-pages.css">
+</head>
+
+<?php
+include "includes/common/head.php";
+?>
 
 <body>
-	<?php // include('includes/loader.php'); ?>
-	
-	<?php // include('includes/nav2.php'); ?>
+	<?php // include('includes/loader.php'); 
+	?>
+
+	<?php // include('includes/nav2.php'); 
+	?>
 
 	<section id="home">
 		<!-- SOLICITAR PRESUPUESTO -->
-		<?php // include('includes/btn-solicitar-presupuesto2.php'); ?>
-		
+		<?php // include('includes/btn-solicitar-presupuesto2.php'); 
+		?>
+
 		<div class="col-xs-12">
 			<div class="ro">
-				<img src="img/empresa/ecosan casa central.jpg" class="img-responsive" alt="ecosan casa central">
+				<img src="/assets/images/contruccion-productos/Construccion-8-Arquitectura-Containers-3.jpg" class="img-responsive" alt="modulos_habitacionales">
 			</div>
 		</div>
 
-		<div class="col-xs-12">
+		<div class="col-xs-12" style="text-align: center; margin: 20px 0;">
 			<div class="container">
 				<h1 class="tituloseo">Módulos habitacionales</h1>
 				<p>
@@ -55,33 +60,34 @@
 		<div class="container-fluid">
 			<!-- items -->
 			<div class="container padding-top-4 margin-bottom-1">
-				<div class="row margin-bottom-2">
+				<div class="d-flex flex-column">
 					<!-- item -->
-					<article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 empresa-item padding-top-4">
+					<article class="empresa-item text-center padding-top-4">
 						<i class="fa fa-paint-brush" aria-hidden="true"></i>
 						<h3>diseño</h3>
 						<p>Diseñamos proyectos totalmente equipados, de gran resistencia estructural, que se adaptan a sus necesidades específicas</p>
 					</article>
 					<!-- item -->
-					<article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 empresa-item padding-top-4">
+					<article class="empresa-item text-center padding-top-4">
 						<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
 						<h3>stock permanente</h3>
 						<p>Disponemos de un gran stock que nos permite tener el mejor abastecimiento del mercado</p>
 					</article>
 					<!-- item -->
-					<article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 empresa-item padding-top-4">
+					<article class="empresa-item text-center padding-top-4">
 						<i class="fa fa-clock-o" aria-hidden="true"></i>
 						<h3>entrega inmediata</h3>
 						<p>Entregas en el día o pactadas en la fecha deseada por el cliente</p>
 					</article>
 					<!-- item -->
-					<article class="col-xs-12 col-sm-6 col-md-3 col-lg-3 empresa-item padding-top-4">
+					<article class="empresa-item text-center padding-top-4">
 						<i class="fa fa-globe" aria-hidden="true"></i>
 						<h3>gran alcance</h3>
 						<p>Cobertura en todo el país y también internacional gracias a nuestra sucursal de Chile</p>
 					</article>
 				</div>
 			</div>
+		</div>
 	</section>
 
 
@@ -90,9 +96,12 @@
 
 	</div><!-- container fluid -->
 	<!----------------------------------------------------------------------------------------- FOOTER ---------------------------------------------------------------------------------------->
-	<?php // include('includes/footer2.php'); ?>
-	<?php // include('includes/iso.php'); ?>
-	<?php // include('includes/js.php'); ?>
+	<?php // include('includes/footer2.php'); 
+	?>
+	<?php // include('includes/iso.php'); 
+	?>
+	<?php // include('includes/js.php'); 
+	?>
 
 	<!-- Google Code for Ecosan HomePage Remarketing List -->
 	<script type="text/javascript">
