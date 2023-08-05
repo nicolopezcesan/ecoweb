@@ -2,20 +2,20 @@
 .tituloseo {color: #A4282C!important; padding-top: 25px;}
 </style>
 
-<?php include('includes/head-oficinas-moviles.php'); ?>
+<?php // include('includes/head-oficinas-moviles.php'); ?>
 
   <body>
-	<?php include('includes/loader.php'); ?>	
-	<!-------------------------------------------------------------------------------------- NAV -------------------------------------------------------------------------------------->
-	<?php include('includes/nav2.php'); ?>
+	<?php //include('includes/loader.php'); ?>	
+	<?php // include('includes/nav2.php'); ?>
 
 <!-------------------------------------------------------------------------------------- HOME -------------------------------------------------------------------------------------->
 <section id="home">
 	<!-- SOLICITAR PRESUPUESTO -->	
-	<?php include('includes/btn-solicitar-presupuesto2.php'); ?>
+	<?php //include('includes/btn-solicitar-presupuesto2.php'); ?>
+	
 	<div class="col-xs-12">
 	<div class="ro">
-				<img src="img/empresa/ecosan casa central.jpg" class="img-responsive" alt="ecosan casa central">
+				<img src="img/contacto/ecosan como llegar.jpg" class="img-responsive" alt="ecosan casa central">
 	</div>
 	</div>
 
@@ -98,9 +98,9 @@ El alquiler de oficinas móviles puede incluir condiciones especiales. Con relac
 	
 </div><!-- container fluid -->
 	<!----------------------------------------------------------------------------------------- FOOTER ---------------------------------------------------------------------------------------->
-	<?php include('includes/footer2.php'); ?>	
-	<?php include('includes/iso.php'); ?>	
-	<?php include('includes/js.php'); ?>
+	<?php // include('includes/footer2.php'); ?>	
+	<?php // include('includes/iso.php'); ?>	
+	<?php // include('includes/js.php'); ?>
 	
 	<!-- Google Code for Ecosan HomePage Remarketing List -->
 	<script type="text/javascript">

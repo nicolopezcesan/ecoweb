@@ -93,10 +93,10 @@
           República Argentina. <br>
 
           <div class="col-xs-12" style="text-align: left;">
-            <a href="http://ecosan.com.ar/alquiler-banos-quimicos.php">Alquiler Baños Quimicos</a> -
-            <a href="http://ecosan.com.ar/modulos-habitacionales.php">Modulos Habitacionales</a> -
-            <a href="http://ecosan.com.ar/oficinas-moviles.php">Oficinas Moviles</a> -
-            <a href="http://ecosan.com.ar/construcciones-modulares.php">Construcciones Modulares</a> -
+            <a href="/alquiler-banos-quimicos.php">Alquiler Baños Quimicos</a> -
+            <a href="/modulos-habitacionales.php">Modulos Habitacionales</a> -
+            <a href="/oficinas-moviles.php">Oficinas Moviles</a> -
+            <a href="/construcciones-modulares.php">Construcciones Modulares</a> -
             <a target="_blank" href="Politica-de-Calidad-y-Medioambiente.pdf">Política de Calidad y Medioambiente</a> -
             <a href="http://www.seonet.com.ar">Seo</a> por Seonet
           </div>
