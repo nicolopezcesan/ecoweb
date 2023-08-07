@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "SERVICIO INTEGRAL DE PROYECTOS",
+    "name": "SERVICIO INTEGRAL DE PROYECTO, INGENIERÍA E INNOVACIÓN Y DESARROLLO I+D",
     "description": "",
     "link": "/construccion-servicio-integral.php",
     "image": "/assets/images/carousel-arq-construccion-1.jpg"
@@ -36,14 +36,14 @@
   },
   {
     "id": 6,
-    "name": "OFICINAS, LABORATORIOS, VESTUARIOS..",
+    "name": "OFICINAS/ LABORATORIOS/ VESTUARIOS/ DEPOSITOS/ AULAS/ SALAS DE REUNION",
     "description": "",
     "link": "/construccion-oficinas-laboratorios.php",
     "image": "/assets/images/carousel-arq-construccion-6.jpg"
   },
   {
     "id": 7,
-    "name": "OBRAS CAMPAMENTOS",
+    "name": "OBRAS CAMPAMENTOS: MINERIA, PETROLEO, GAS Y ENERGIA",
     "description": "",
     "link": "/construccion-campamentos.php",
     "image": "/assets/images/carousel-arq-construccion-7.jpg"
