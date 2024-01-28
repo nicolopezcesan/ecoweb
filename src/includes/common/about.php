@@ -9,8 +9,7 @@
         <div class="row">
           <div class="col-sm-12 about-container">
             <h3>
-              En <strong>ECOSAN S.A</strong> trabajamos desde hace mas de 26
-              años ofreciendo las más innovadoras soluciones constructivas Industrializadas y Modulares, e incrementamos nuestra propuesta de valor a través de los servicios de rental para la industria.<br /><br />
+              En <strong>ECOSAN S.A</strong> trabajamos desde hace mas de 27años ofreciendo las más innovadoras soluciones constructivas Industrializadas y Modulares, e incrementamos nuestra propuesta de valor a través de los servicios de rental para la industria.<br /><br />
 
               <strong>Habitamos el futuro, somos partícipes y actores de la
                 transformación para un mundo más sustentable.</strong>

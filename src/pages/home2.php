@@ -43,7 +43,7 @@
       </div>
       <div class="col-sm-3 col-2 label">
         <img src="/assets/images/label.svg"
-             alt="27 Años - Construccion Modular y Alquileres"
+             alt="26 Años - Construccion Modular y Alquileres"
              class="label-home" />
       </div>
     </div>
@@ -53,7 +53,7 @@
   <?php include "includes/home/rental.php"; ?>
   <?php include "includes/common/about.php"; ?>
   <?php include "includes/common/newsletter.php"; ?>
-  <?php include "includes/common/clients-carousel.php"; ?>
+  <?php include "includes/common/clients-carousel-2.php"; ?>
   <?php include "includes/common/presupuesto.php"; ?>
 
 </div>

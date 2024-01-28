@@ -46,7 +46,7 @@
 
   <div class="row">
     <div class="col-12 text-center">
-      <a href="/rentals"
+      <a href="/alquileres.php"
          class="btn btn-secondary btn-lg rentals-more">
         Alquileres y Ventas <i class="bi bi-chevron-right"></i>
       </a>

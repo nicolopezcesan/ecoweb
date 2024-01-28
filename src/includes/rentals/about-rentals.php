@@ -33,7 +33,7 @@
 
         <div class="row">
           <div class="col-sm-12 text-center">
-            <h4 class="title-rentals">Nos respaldan 26 años de
+            <h4 class="title-rentals">Nos respaldan 27 años de
               <strong>experiencia y desarrollo en la investigación, diseño y
                 fabricación de exclusivos productos con detalles de la más
                 alta calidad y confort.</strong>

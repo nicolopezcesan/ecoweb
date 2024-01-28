@@ -5,7 +5,7 @@
 
         <div class="row">
           <div class="col-sm-12 red-asesor-container">
-            <h3 class="red-asesor-title">ECOSAN S.A. RENTAL DE MÓDULOS Y BAÑOS
+            <h3 class="red-asesor-title">ECOSAN S.A. ALQUILERES DE MÓDULOS Y BAÑOS
             </h3>
             <h3 class="red-asesor-subtitle"> Ofrecemos productos y servicios que
               acompañan a la industria de la minería, petroleo, gas, energía y

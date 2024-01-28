@@ -10,10 +10,6 @@
                 <img src="/assets/images/ecosan-logo-footer.svg" alt="Ecosan" class="logo" />
               </li>
               <li class="contact-item">
-                <img src="/assets/images/call.svg" alt="0810 444 2266" class="icon" />
-                0810 444 2266
-              </li>
-              <li class="contact-item">
                 <img src="/assets/images/phone.svg" alt="0810 444 2266" class="icon" />
                 11 4846 0995
               </li>
@@ -30,10 +26,9 @@
                 <h2>Institucional</h2>
               </li>
               <li><a href="/nosotros">Nosotros</a></li>
-              <li><a href="/construccion">Catalogo</a></li>
+              <li><a href="/construccion">Catálogo</a></li>
               <li><a href="/novedades#prensa">Prensa</a></li>
-              <li><a href="http://ecosan.com.ar/Politica-de-Calidad-y-Medioambiente.pdf">
-                  Política de Calidad y Medioambiente</a></li>
+              <li><a href="Politica-de-Calidad-y-Medioambiente.pdf">Política de Calidad y Medioambiente.<br>Política de Sostenibilidad.</a> </li>
             </ul>
           </div>
 
@@ -88,18 +83,20 @@
             <img src="/assets/images/whatsapp.svg" alt="Whatssapp" class="whatsapp" />
           </a>
 
-          © 2021 ECOSAN, All Rights Reserved. ECOSAN S.A. - CUIT:
-          30-70769684-9 - Buszchiazzo 227, Don Torcuato, Buenos Aires,
-          República Argentina. <br>
-
           <div class="col-xs-12" style="text-align: left;">
             <a href="/alquiler-banos-quimicos.php">Alquiler Baños Quimicos</a> -
             <a href="/modulos-habitacionales.php">Modulos Habitacionales</a> -
             <a href="/oficinas-moviles.php">Oficinas Moviles</a> -
             <a href="/construcciones-modulares.php">Construcciones Modulares</a> -
-            <a target="_blank" href="Politica-de-Calidad-y-Medioambiente.pdf">Política de Calidad y Medioambiente</a> -
-            <a href="http://www.seonet.com.ar">Seo</a> por Seonet
+            <a target="_blank" href="Politica-de-Calidad-y-Medioambiente.pdf">Política de Calidad y Medioambiente</a>
           </div>
+
+          © 2021 ECOSAN, All Rights Reserved. ECOSAN S.A. - CUIT:
+          30-70769684-9 - Buschiazzo 227, Don Torcuato, Buenos Aires,
+          República Argentina - <a href="http://www.1828branding.com" target="_blank">Designed by 1828 Branding</a> - <a href="http://www.seonet.com.ar" target="_blank">Seo</a> por Seonet 
+          <br>
+
+         
         </div>
       </div>
     </div>

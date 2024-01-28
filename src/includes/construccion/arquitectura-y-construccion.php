@@ -12,7 +12,7 @@
                      Diseñamos, desarrollamos y ejecutamos el proyecto en su totalidad, abarcando desde el anteproyecto, pasando por la obra civil hasta la construcción modular o el sistema constructivo que mejor se adapte a la necesidad del cliente. Trabajamos con distintos rubros: minería, gas, petróleo, salud, obras gubernamentales y diversas empresas y entidades, entre otros. 
                   </h3>
                   <h3 class="disclaimer">
-                     Ofrecemos hace mas de 26 años <strong>soluciones constructivas Industrializadas y Modulares</strong>.
+                     Ofrecemos hace mas de 27 años <strong>soluciones constructivas Industrializadas y Modulares</strong>.
                   </h3>
                </div>
             </div>
